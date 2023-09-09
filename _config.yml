@@ -20,16 +20,18 @@
 
 title: Nixill's Den
 description: >- # this means to ignore newlines until "baseurl:"
-  Nixill's Den is a cozy place to reach Nixill and see what they're up to.
+  Cozy home for Nixill's projects and ramblings.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nixill.net" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: StevenH237
 
 # Build settings
-theme: minima
+remote_theme: StevenH237/midnight@fcddf1d
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+host: 0.0.0.0
 
 # Exclude from processing.
 # The following items will not be processed, by default.
