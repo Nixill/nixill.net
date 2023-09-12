@@ -27,7 +27,7 @@ url: "https://nixill.net" # the base hostname & protocol for your site, e.g. htt
 github_username: StevenH237
 
 # Build settings
-remote_theme: StevenH237/midnight@fcddf1d
+remote_theme: StevenH237/midnight@2bebfc9
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
