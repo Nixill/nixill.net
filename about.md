@@ -8,6 +8,9 @@ permalink: /about
 
 ## Nixill
 
+How to say it
+: "Nixill" rhymes with "Pixel".
+
 Other names
 : Nix (unless you're speaking German)
 : Nik (if you're speaking German, also ok in English)
@@ -15,7 +18,7 @@ Other names
 Please **don't** call me...
 : Nixil, ending in one L. This is a more common typo than you might think.
 : Shadow, Fox, or Shadow Fox.
-: In German, "nix" is very common slang, please don't use it.
+: In German, "nix" is very common slang, please don't use it as my name.
 
 Pronouns
 : EN: they/them
@@ -23,7 +26,7 @@ Pronouns
 
 Timezone
 : US Eastern - UTC-4 during summer, UTC-5 during winter
-: <span id="currentTime">(Page loaded without JavaScript)</span>
+: <span id="currentTime">(Can't show my current time: Page was loaded without JavaScript)</span>
 <script>
   var DateTime = luxon.DateTime;
   var now = DateTime.now().setZone("America/Detroit");

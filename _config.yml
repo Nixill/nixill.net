@@ -25,9 +25,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nixill.net" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: StevenH237
+timezone: America/Detroit
 
 # Build settings
-remote_theme: StevenH237/midnight@2bebfc9
+remote_theme: StevenH237/midnight@016d204
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
