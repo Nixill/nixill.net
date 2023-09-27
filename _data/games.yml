@@ -1,0 +1,537 @@
+---
+- name: Audiosurf
+  platform: PC
+  firstStream: 2021-10-20
+  lastStream: 2021-10-20
+  rating: 1
+  url: https://www.audio-surf.com/
+  purchase:
+    humble:
+      pc: audiosurf
+      pcPlatform: Steam and DRM-Free
+    steam: 12900
+  notes: |
+    This is the first Steam game I ever purchased! I got it on March 9,
+    2011.
+  review:
+    plus: |
+      It's fun to play it with your music and get high scores. It's also
+      a good way to show off original music, as [WinnerBit](https://twitch.tv/WinnerBit)
+      has shown off.
+    minus: |
+      It doesn't really have much going for it otherwise. Also, when
+      streaming it, you have to be mindful of copyright, as it only
+      has one song of its own.
+
+- name: Beat Hazard 2
+  platform: PC
+  firstStream: 2021-10-20
+  lastStream: 2021-10-20
+  rating: 1
+  url: http://www.coldbeamgames.com/beat-hazard-2.html
+  purchase:
+    humble:
+      pc: beat-hazard-2
+      pcPlatform: DRM-Free ONLY
+    steam: 618740
+    gog: beat_hazard_2
+    ios: beat-hazard-2/id1488616604
+    android: com.coldbeamgames.beathazard2
+  disclosures:
+    text: |
+      The game's developer and I have talked a bit, and we are on each
+      other's Steam friends lists.
+  review:
+    plus: |
+      I like the graphics pulsing in time to the music as well as how it
+      determines the power of your own bullets, and "Open Mic" mode is a
+      really good addition given how widespread streaming services where
+      you don't actually download the music have become.
+    minus: |
+      It's a difficult game; I frequently find myself unable to complete
+      tracks, though that might be more the fact I'm not great with this
+      style of game. It's also not super great for streaming because of
+      copyright laws.
+
+- name: Before the Echo
+  platform: PC
+  firstStream: 2019-11-21
+  lastStream: 2019-12-17
+  continuous: true
+  rating: 1
+  finished: true
+  url: http://www.playiridium.com/
+  purchase:
+    steam: 200910
+  review:
+    plus: |
+      It's a neat genre fusion I don't think I've seen before: A rhythm
+      game for combat in what's otherwise a light RPG. I enjoyed its story.
+    minus: |
+      The chance of failure to craft and the random loot drops feel like
+      unnecessary padding. It got so bad at one point that there is
+      actually [a highlight](https://www.twitch.tv/videos/518652157)
+      (note: strong language) of my reaction to the imbalance.
+    more: Maybe one day I'll beat the game on Spasmodic difficulty.
+
+- name: Cadence of Hyrule
+  platform: Switch
+  firstStream: 2019-12-21
+  lastStream: 2021-05-04
+  rating: 1
+  finished: false
+  url: https://cadenceofhyrule.nintendo.com/
+  purchase:
+    humble:
+      nin10: cadence-of-hyrule-crypt-of-the-necrodancer-featuring-the-legend-of-zelda-season-pass-switch
+    nin10:
+      link: cadence-of-hyrule-crypt-of-the-necrodancer-featuring-the-legend-of-zelda-switch
+  notes: |
+    The game's official name is **"Cadence of Hyrule: Crypt of the
+    NecroDancer Featuring The Legend of Zelda"**. I'm sure you can see why
+    I didn't use that above.
+  review:
+    plus: |
+      I was already a fan of both NecroDancer and Zelda (admittedly more
+      the former) before this came out, so this was a welcome crossover to
+      see. It contained some welcome quality-of-life changes to
+      NecroDancer, including offering the option to play any character
+      without rhythm three years before NecroDancer itself offered that
+      same option, and the fact that (by default) it's not one life or
+      start over.
+    minus: |
+      Runs are a bit long. NecroDancer's any% (default character) world
+      record is about 5½ minutes, whereas Cadence of Hyrule's is almost
+      triple that. It also features NecroDancer's usual difficulty, albeit
+      with some mitigating factors like the aforementioned fixed-beat mode
+      and multiple attempts.
+
+- name: "Cities: Skylines"
+  platform: PC
+  firstStream: 2019-11-23
+  lastStream: 2022-10-15
+  rating: 1
+  url: https://www.paradoxinteractive.com/games/cities-skylines/
+  purchase:
+    humble:
+      pc: cities-skylines
+    steam: 255710
+    nin10:
+      link: cities-skylines-nintendo-switch-edition-switch
+    xbox:
+      link: cities-skylines-xbox-one-edition/c4gh8n6zxg5l
+    ps: PS4/PS5
+  review:
+    plus: |
+      I'm not all that great at city-building games, but this manages to
+      strike the right chord with me because of its mod support and
+      out-of-the-box sandbox/creative mode.
+    minus: |
+      As I said, I'm not all that great at city-building games, so I
+      haven't really been able to play this unmodded. Additionally, some
+      mods that feel "necessary" add a lot of overhead and significantly
+      slow down the game. Maybe one day I'll have another go at it, but I
+      don't think I'll do that great.
+    more: |
+      For some reason I've mentally associated this game's 2015 release
+      with the uproar about the always-online DRM in EA's 2013 "SimCity",
+      and this game being a more positive answer to that.
+
+      I *am*, however, excited for its sequel.
+
+- name: Crypt of the NecroDancer
+  platform: PC
+  firstStream: 2020-09-25
+  lastStream: 2023-09-23
+  rating: 2
+  finished: true
+  url: https://braceyourselfgames.com/crypt-of-the-necrodancer/
+  purchase:
+    humble:
+      pc: crypt-of-the-necrodancer
+      pcPlatform: Steam only, **NO DLC**
+    steam: 247080
+    gog: crypt_of_the_necrodancer
+    nin10:
+      link: crypt-of-the-necrodancer-nintendo-switch-edition-switch
+    xbox:
+      link: crypt-of-the-necrodancer/bzhl37cpgp4x
+    ps: PS4
+    ios: crypt-of-the-necrodancer/id1085123968
+    android: com.braceyourselfgames.necrodancer
+  disclosures:
+    text: |
+      I received the Synchrony DLC for this game for free. My name is also
+      in the credits, in the "Synchrony Testers" section near the end.
+  notes: |
+    The Humble Store only has the base game. However, you can buy the base
+    game there and then redeem the Steam key and buy the DLCs on Steam.
+    Additionally, the Synchrony DLC is currently only available for PC.
+  review:
+    plus: |
+      I enjoy the fusion of turn-based dungeon crawler and rhythm game,
+      especially in the fact that adding a time limit to all the turns
+      means it's possible to make a turn-based game where dodging all
+      attacks is technically possible still be decently skill-based. It
+      feels difficult but fair once you get used to it.
+    minus: |
+      There is a lot of information to take in all at once, which isn't
+      exactly my strongest suit. Some characters I'm good at, but most I'm
+      not without mods, and there are a couple characters I just can't
+      play on my current hardware. Also I'm not a super big fan of mod
+      support and online multiplayer being locked behind a DLC.
+    more: |
+      I actually got this game on the recommendation of another content
+      creator, Nerd³, who [played it in 2015](https://www.youtube.com/watch?v=jCG4IcBJTOE).
+      Also, the Synchrony DLC was originally a fan-made alternative client
+      for the game (that particular fan is actually the lead dev on the
+      DLC), and I've written several thousand lines of code in mods for
+      it. It's the only game in my Steam library (so far) in which I've
+      reached 700, 1000, or 2500 hours, and was the first for which I even
+      hit 500 hours.
+
+- name: Cyber Hook
+  platform: PC
+  firstStream: 2021-05-25
+  lastStream: 2021-06-11
+  rating: 0
+  finished: true
+  url: https://www.graffitigames.com/product/cyber-hook
+  purchase:
+    humble:
+      pc: cyber-hook
+      pcPlatform: Steam
+    steam: 1130410
+    gog: cyber_hook
+    itch:
+      user: graffiti-games
+      game: cyber-hook
+    nin10:
+      link: cyber-hook-switch
+    ps: PS4
+  disclosures:
+    humble: true
+  notes:
+  review:
+    plus: |
+      I'm a big fan of the *idea* of this game. Web-swinging parkour is
+      just plain fun, and for the most part I'm happy with the physics
+      engine here too. Most levels are easy to *beat*, but decently
+      challenging to get three-star times on. I also enjoyed its soundtrack.
+    minus: |
+      Some levels I've thrown dozens of attempts at and haven't managed to
+      beat at all. It's only thanks to a glitch in the game that I've
+      actually been able to attempt *all* of the levels. Additionally, it
+      hasn't received some upkeep that was apparently needed, and (as of
+      2023 Sep 27) the monthly and full-game marathon modes have not
+      worked in months (despite the fact that full-game marathon mode
+      shouldn't even need to change month to month).
+
+- name: Descenders
+  platform: PC
+  firstStream: 2022-09-22
+  lastStream: 2022-09-22
+  rating: 1
+  finished: true
+  url: https://www.descendersgame.com/
+  purchase:
+    humble:
+      pc: descenders
+    steam: 681280
+    nin10:
+      link: descenders-switch
+    xbox:
+      link: descenders/c37xbx7dcbz0
+    ps: PS4
+    ios: descenders/id1604675493
+    android: com.noodlecake.descenders
+  disclosures:
+    humble: true
+  review:
+    plus: |
+      This game about riding a bike down a mountain contains a lot of the
+      things I like about roguelikes - randomly generated hills, limited
+      health before you have to start over, randomly selected upgrades
+      that you can earn, a "boss fight" at the end of each region, and a
+      slight emphasis on getting through the whole thing as fast as you
+      can.
+    minus: |
+      Some of the controls are tight and it doesn't always feel fair when
+      you fall off your bike or do/don't get a "Clean Landing". I haven't
+      managed to speed through it yet, though I did manage to clear both
+      Campaign and Campaign-Plus with a lot of farming health in the first
+      region.
+
+- name: Drome Racers
+  platform: PC
+  firstStream: 2022-09-19
+  lastStream: 2022-09-19
+  continuous: true
+  rating: -1
+  finished: false
+  review:
+    plus: |
+      It's got a really cool GP system where each racer starts each race
+      "at speed", as far behind or ahead as they finished the last race —
+      so whoever has the shortest *sum of times* across all the races will
+      win the whole GP, regardless of performance on individual races.
+      It's a system I wish more racing games had.
+    minus: |
+      It doesn't have the greatest physics engine, and the AI quickly
+      ramps up to levels that don't forgive mistakes. I did not manage to
+      get very far before I got stuck.
+    more: |
+      Did you know this was going to be LEGO Racers 3?
+
+- name: Euro Truck Simulator 2
+  platform: PC
+  firstStream: 2019-10-20
+  lastStream: 2023-09-23
+  rating: 2
+  url: https://eurotrucksimulator2.com/
+  purchase:
+    humble:
+      pc: euro-truck-simulator-2
+    steam: 227300
+  review:
+    plus: |
+      The team at SCS have put over a decade of work into this game and it
+      shows in how detailed all the scenery is throughout the scaled-down
+      model of Europe. The fact that, at the end of the day, it is just a
+      videogame also helps me get a lot more into this than I ever could
+      driving a real car, given my disabilities of attention and memory
+      that make driving a stressful and dangerous undertaking.
+    minus: |
+      Even though it's scaled down, some journeys in the game can still
+      take hours of real-life time, and it's not that great for
+      multitasking. I'm also not a fan of some of the achievements, like
+      one for exploring 100% of the map, which has no room for error or
+      game updates (any bit of road that changes in an update becomes
+      unexplored); or some other achievements that require you to do all
+      of a certain thing but don't have any in-game progress tracker to
+      tell you which ones you've done or not.
+    # Old review that I don't want to just lose:
+    #
+    # Euro Truck Simulator 2 is a game about driving simulated trucks
+    # through a scaled-down copy of Europe. You need to pick up trailers at
+    # one warehouse, actually drive by the rules of the road even across
+    # borders, and back it into another warehouse that's probably two
+    # countries over.
+    #
+    # I frequently describe myself as someone who has disabilities of memory
+    # and attention that make it unsafe to operate a motor vehicle. I'm also
+    # aware of this at all moments *during* the operation of a motor
+    # vehicle, making it extremely stressful to do.
+    #
+    # Sounds like a match made in Hell, right? Somehow, ETS2 makes it work,
+    # to the point that it was the chief driving factor behind my decision
+    # to get a racing wheel and pedals. That's probably down to all the
+    # options it gives you to customize gameplay, and the fact that at the
+    # end of the day, it is just a game. Head-on collision with another
+    # driver at 300 relative kilometers an hour? Pay the fine for causing a
+    # crash, get repaired at services, and you're on your way again. Don't
+    # want to be fined for causing crashes? Turn it off in the options!
+    # Don't want to drive at night? Find a parking lot and hit a button to
+    # skip eight hours in about three seconds! Don't feel like driving any
+    # more even though you're an entire megameter away from where you
+    # started? Close the game anyway!
+    #
+    # ETS2 also has a robust physics engine (until you break it anyway),
+    # and a beautifully rendered continent that the team at SCS have
+    # lovingly worked on for years. It and its sister game American Truck
+    # Simulator go to great lengths to mimic actual interchanges and street
+    # layouts, and all the trucks in both games are actual truck brands.
+    # There are many reasons it has several hundred hours in my Steam library.
+
+- name: Evoland / Evoland 2
+  platform: PC
+  firstStream: 2021-01-04
+  lastStream: 2021-02-09
+  continuous: true
+  rating: 0
+  finished: "1: Yes / 2: No"
+  url: https://evoland.shirogames.com/
+  purchase:
+    humble:
+      pc: evoland-legendary-edition
+    steam: 1020470
+    gog: evoland_legendary_edition
+    nin10:
+      link: evoland-legendary-edition-switch
+    xbox:
+      link: evoland-legendary-edition/bpwhp3hghxkl
+    ps: PS4
+  review:
+    plus: |
+      Unique time-travel mechanic and a cute artstyle that responds to it.
+    minus: |
+      This game tries to be far too many other games all at once and
+      doesn't particularly pull it off quite well, and it just got too
+      tedious to keep playing.
+
+- name: Fall Guys
+  platform: PC
+  firstStream: 2020-08-13
+  lastStream: 2021-06-01
+  rating: -1
+  url: https://fallguys.com/
+  purchase:
+    free: true
+    nin10:
+      link: fall-guys-switch
+    xbox:
+      link: fall-guys/9pmxh5249dg5
+    ps: PS4/PS5
+    other:
+      name: Epic Games
+      link: https://store.epicgames.com/p/fall-guys
+  disclosures: |
+    This was previously a pay-to-play game available on Steam. I bought it
+    during this time and, in fact, that is the only time I've ever played it.
+  review:
+    plus: |
+      A good concept for a mass-multiplayer knockout game.
+    minus: |
+      I don't like Epic Games, and my joy for this game did not survive
+      the requirement that all players have an Epic account.
+
+- name: "Frogger's Adventures: Temple of the Frog"
+  platform: GameBoy Advance
+  firstStream: 2020-02-11
+  lastStream: 2020-03-22
+  continuous: true
+  rating: 0
+  finished: true
+  review:
+    plus: |
+      Mostly riding on nostalgia, though it does have a decent story.
+    minus: |
+      The controls are pretty tight and it has a LOT of jank that I dove
+      deep into in a 100% TAS — and then that TAS got *invalidated* by
+      someone finding another completely invisible coin that my run didn't
+      collect.
+
+- name: Golf With Your Friends
+  platform: PC
+  firstStream: 2020-10-08
+  lastStream: 2020-10-08
+  rating: 1
+  finished: false
+  url: https://www.team17.com/games/golf-with-your-friends/
+  purchase: 
+    humble:
+      pc: golf-with-your-friends
+      nin10: golf-with-your-friends-switch
+    steam: 431240
+    nin10:
+      link: golf-with-your-friends-switch
+    xbox:
+      link: golf-with-your-friends/9N14G09PWG74
+    ps: PS4
+  review:
+    plus: |
+      Golfing is fun, and I think this game does it pretty well. I also
+      like how it can be customized to play it how you want.
+    minus: |
+      Some of the holes feel a bit less fair than others. I've definitely
+      gotten stuck before, and I don't recommend playing without either a
+      stroke limit or a time limit (or both), especially in multiplayer.
+
+- name: GRIP
+  platform: PC
+  firstStream: 2020-03-10
+  lastStream: 2020-04-21
+  continuous: true
+  rating: 0
+  finished: false
+  url: https://www.gripvideogame.com/
+  purchase:
+    humble:
+      pc: grip-combat-racing
+    steam: 396900
+    nin10:
+      link: grip-switch
+    xbox:
+      link: grip/bsp8h31krm93
+    ps: PS4
+  disclosure:
+    humble: true
+  review:
+    plus: |
+      GRIP is decently fun and has a couple unique items such as its
+      Disruptor to compress the pack. I didn't struggle for most of the
+      campaign and enjoyed it up to a point.
+    minus: |
+      "Tier 9" of the campaign is a large difficulty spike that I never
+      made it past, which greatly tempered my enjoyment of the game until
+      I gave up on the singleplayer campaign.
+
+- name: Hades
+  platform: Switch and PC
+  firstStream: 2022-05-23
+  lastStream: 2022-08-25
+  continuous: true
+  rating: 1
+  finished: true
+  url: https://www.supergiantgames.com/games/hades/
+  purchase:
+    steam: 1145360
+    nin10:
+      link: hades-switch
+    xbox:
+      link: hades/9P8DL6W0JBB8
+    ps: PS4/PS5
+  review:
+    plus: |
+      Hades is faithful to most aspects of Greek mythology (barring a
+      couple details of the family tree that would be less pleasant to
+      a general audience) while creating a new story to wrap things up in
+      a happier ending, and it does so with a very well-built roguelike to
+      ascend through the levels of the titular underworld.
+    minus: |
+      It's kind of a long story. Then, once you finish it, you can never
+      reach the most beautiful area in the game ever again; it simply gets
+      written out with a flimsy narration excuse each time you try. It's
+      not exactly plot holes, but it just feels hollow when everything
+      else is so well written.
+
+# - name:
+#   platform:
+#   firstStream:
+#   lastStream:
+#   continuous: true
+#   rating:
+#   finished:
+#   url:
+#   purchase:
+#     free: true
+#     humble:
+#       pc:
+#       pcPlatform:
+#       nin10:
+#       nin10Platform:
+#     steam:
+#     gog:
+#     itch:
+#       user:
+#       game:
+#     nin10:
+#       platform:
+#       link:
+#     xbox:
+#       platform:
+#       link:
+#     ps:
+#     ios:
+#     android:
+#     other:
+#       name:
+#       link:
+#   disclosure:
+#     humble:
+#   disclosures:
+#   notes:
+#   review:
+#     plus:
+#     minus:
+#     more:
