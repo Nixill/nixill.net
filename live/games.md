@@ -1,3 +1,8 @@
+---
+title: Nix's Streamed Games
+layout: page
+---
+
 The following is ~~a comprehensive~~ an incomplete list of games I've played on stream.
 
 **Disclaimers:** Links to the Humble Store are affiliate links. I, and a local charity of my choice, will receive a cut for any purchases made through those links. All other sites are non-affiliate links. For the PlayStation store, links have been omitted due to being region-locked, but you can look things up on your local store. Games are added to this list when I remember to add them without consulting any developers of those games. Links are accurate as of the time I add the game to the list, and they may or may not be updated further. There may also be disclosures specific to individual games, such as those received for free.
@@ -17,9 +22,8 @@ The following is ~~a comprehensive~~ an incomplete list of games I've played on 
 {% if game.finished == true %}- Did I finish it: Yes
 {% elsif game.finished == false %}- Did I finish it: No
 {% elsif game.finished %}- Did I finish it: {{ game.finished }}
-{% endif -%}
-{% if game.url %}- Website: [{{ game.url | split: "/" | first }}//{{ game.url | split: "/" | slice: 2 }}/]({{ game.url }}){% endif %}
-{% if game.purchase -%}{%- assign purchase = game.purchase -%}{%- assign slash = false -%}- Where to {% if purchase.free %}get{% else %}buy{% endif %}:
+{% endif %}{% if game.url %}- Website: [{{ game.url | split: "/" | first }}//{{ game.url | split: "/" | slice: 2 }}/]({{ game.url }})
+{% endif %}{% if game.purchase -%}{%- assign purchase = game.purchase -%}{%- assign slash = false -%}- Where to {% if purchase.free %}get{% else %}buy{% endif %}:
 {% if purchase.humble.pc %} [**Humble Store ({{ purchase.humble.pcPlatform | default: "Steam" }})**](https://www.humblebundle.com/store/{{ purchase.humble.pc }}?partner=nixill&charity=1599605){%- assign slash = true -%}{%- endif -%}
 {% if purchase.humble.nin10 %}{% if slash %} /{% endif %} [**Humble Store ({{ purchase.humble.nin10Platform | default: "Switch" }})**](https://www.humblebundle.com/store/{{ purchase.humble.nin10 }}?partner=nixill&charity=1599605){%- assign slash = true -%}{% endif -%}
 {% if purchase.steam %}{% if slash %} /{% endif %} [Steam](https://store.steampowered.com/app/{{ purchase.steam }}){%- assign slash = true -%}{% endif -%}

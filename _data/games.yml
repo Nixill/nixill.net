@@ -495,6 +495,203 @@
       not exactly plot holes, but it just feels hollow when everything
       else is so well written.
 
+- name: Heat Signature
+  platform: PC
+  firstStream: 2019-09-21
+  lastStream: 2019-09-21
+  rating: 1
+  finished: false
+  url: https://www.pentadact.com/category/heatsig/
+  purchase:
+    humble:
+      pc: heat-signature
+      pcPlatform: Steam & DRM-Free
+    steam: 268130
+  disclosures:
+    text: |
+      I was able to play the beta of this for free, but still had to buy
+      the full game.
+  review:
+    plus: |
+      The game feels actiony but is designed with pausing and thinking in
+      mind, giving you time to plan out your moves before you mess them up
+      in a hilarious and probably predictable fashion.
+    minus: |
+      I'm not a big fan of the permadeath that this game defaults to, and
+      it sometimes feels a bit long (especially when you're as prone to
+      distraction as I am).
+
+- name: Hot Lava
+  platform: PC
+  firstStream: 2019-09-19
+  lastStream: 2023-09-23
+  rating: 1
+  url: http://playhotlava.com/
+  purchase:
+    steam: 382560
+    ios: hot-lava/id1469252166
+  disclosures:
+    text: |
+      I received the game for free after signing up to play the closed beta.
+  review:
+    plus: |
+      "The floor is lava" is a classic children's game about jumping all
+      over the furniture and trying to avoid touching the floor. This game
+      takes that concept and adds in toys with extra abilities like a
+      double jump or slide, with a physics engine that feels fun to run in.
+    minus: |
+      "School", the first world that was created (now the third in the
+      game's order), has levels that are a lot longer than in the rest of
+      the game. Plus, levels in the first six worlds were all made when
+      only the Boost Jump ability existed and weren't changed for the
+      addition of the other abilities (though there *are* separate
+      leaderboards) - for Master Class in particular, these levels were
+      actually designed around *using* the Boost Jump and can be quite
+      difficult if you have a different ability equipped.
+
+      And despite all of the above, the game hasn't precisely "clicked"
+      with me since in the end grinding for good times isn't exactly my
+      best idea of a good time.
+
+- name: Hot Wheels Unleashed
+  platform: PC
+  firstStream: 2022-08-28
+  lastStream: 2022-11-14
+  rating: 1
+  finished: false
+  url: https://1.hotwheelsunleashed.com/
+  purchase:
+    humble:
+      pc: hot-wheels-unleashed
+    steam: 1271700
+    nin10:
+      link: hot-wheels-unleashed-switch
+    xbox:
+      link: hot-wheels-unleashed/9nlcvdb447qz
+    ps: PS4/PS5
+  disclosures:
+    humble: true
+  review:
+    plus: |
+      Hot Wheels Unleashed is a fun little racing game. It doesn't contain
+      any power-ups, just pure racing based on skill. The campaign has
+      some good progression and fair goals (at least for general
+      completion), while the single-race modes are easy to get to and play.
+    minus: |
+      Some of the time trial times are extremely tight, and the game
+      features a loot-box system (even if it's not a real money paid one)
+      for unlocking all the various vehicles which isn't really my cup of tea.
+
+- name: "Hot Wheels: Velocity X"
+  platform: PC
+  firstStream: 2020-05-14
+  lastStream: 2020-05-16
+  rating: 0
+  finished: false
+  review:
+    plus: |
+      Hot Wheels: Velocity X breaks from the traditional Hot Wheels racing
+      formula by actually adding missions of varying objectives, such as
+      battles or retrieval or even, at one point, defending an innocent.
+      There are pickups and all sorts of cars, and even cheats are
+      available in-game for your use.
+    minus: |
+      You can tell it's a dated game with nowhere near modern graphics or
+      physics. I've also never managed to finish it, even with all the
+      cheats enabled, though I don't remember if that's from lack of skill
+      or lack of interest (or a combination of the two).
+
+- name: Jackbox Party Packs
+  platform: PC
+  firstStream: 2020-04-30
+  lastStream: 2020-07-31
+  rating: 0
+  url: https://www.jackboxgames.com/
+  notes: |
+    Purchase links have been skipped above as there are far too many
+    individual products to reasonably link on this page. I've hosted games
+    from the first three packs.
+  review:
+    plus: |
+      Jackbox Party Pack games are easy to set up and host, and good for
+      streams because only one person actually needs to own the game for
+      everyone to join. Across all the packs, there's a decent variety of
+      games, so you can be sure you'll have something for everyone... if
+      you've purchased the right packs, that is.
+    minus: |
+      The games being split up into so many paid packs isn't the best
+      model, especially with only the later packs receiving general QoL
+      updates like code hiding or moderation features. It's a good way to
+      ensure that they'll keep getting money, sure. Also, I'm not great at
+      social or comedy games, so a lot of these are hard for me to host in
+      particular.
+
+- name: Just Cause 3
+  platform: PC
+  firstStream: 2022-11-05
+  lastStream: 2023-01-28
+  continuous: true
+  rating: 1
+  finished: true
+  url: https://www.square-enix-games.com/en_US/games/just-cause-3
+  purchase: 
+    humble:
+      pc: just-cause-3
+    steam: 225540
+    xbox:
+      link: just-cause-3/br2f4dg4wxf8
+    ps: PS4
+  notes: |
+    It might be prudent to note that, at least on the Humble Store, the
+    "XXL Edition", available [here](https://www.humblebundle.com/store/just-cause-3-xxl-edition?partner=nixill&charity=1599605),
+    offers over a 50% discount as compared to the price of buying the game
+    and its DLCs individually.
+  review:
+    plus: |
+      Just Cause 3 is a game about deposing a dictator through the liberal
+      use of explosions, a wingsuit, and a grappling hook. The story is a
+      bit dark, though it doesn't go too far for my own tastes. 
+    minus: |
+      Movement is a bit sticky and tough, especially after having played
+      its sequel already. The dark story might also turn other people away.
+
+- name: "The Legend of Zelda: Phantom Hourglass"
+  platform: Nintendo DS
+  firstStream: 2020-07-21
+  lastStream: 2020-08-23
+  continuous: true
+  rating: 1
+  finished: true
+  review:
+    plus: |
+      It's a good first entry into the Zelda franchise, as it was for me.
+      I also like how it makes use of the touch screen without seeming
+      particularly overbearing about it.
+    minus: |
+      Some puzzles are super tight and not always as clear as they need to
+      be, and I don't like how you can't just "free sail" (you have to
+      plan a path in advance and follow it) over the seas.
+
+- name: "The Legend of Zelda: Spirit Tracks"
+  platform: Nintendo DS
+  firstStream: 2020-10-27
+  lastStream: 2020-12-05
+  continuous: true
+  rating: 1
+  finished: true
+  review:
+    plus: |
+      Spirit Tracks is the sequel to Phantom Hourglass, and is in fact the
+      second Legend of Zelda game I owned. It fixes a complaint I
+      mentioned in the Phantom Hourglass review - unlike in that game, in
+      this one you *can* just get moving in the overworld without a
+      pre-planned path. I also liked the story to this one.
+    minus: |
+      Some of the enemy trains seem a little unfair sometimes, especially
+      the fact that contact is an instant game-over rather than a health
+      loss like other obstacles are. Also, the flute-playing is rather
+      difficult and there isn't usually a way around using the microphone.
+
 # - name:
 #   platform:
 #   firstStream:
@@ -527,9 +724,9 @@
 #     other:
 #       name:
 #       link:
-#   disclosure:
-#     humble:
 #   disclosures:
+#     humble:
+#     text:
 #   notes:
 #   review:
 #     plus:
