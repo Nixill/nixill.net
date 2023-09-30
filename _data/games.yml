@@ -692,6 +692,198 @@
       loss like other obstacles are. Also, the flute-playing is rather
       difficult and there isn't usually a way around using the microphone.
 
+- name: "LEGO Island 2: The Brickster's Revenge"
+  platform: GameBoy Advance
+  firstStream: 2020-04-04
+  lastStream: 2020-04-04
+  rating: 1
+  finished: "Yes but not on stream"
+  notes: |
+    LEGO Island 2 is the first game I can remember ever playing.
+    Additionally, writing this review has gotten its song [Bricksterbot
+    Dance](https://youtu.be/9XatYzoVzOE) stuck in my head.
+  review:
+    plus: |
+      Catchy music, apparently! It's got a good variety of minigames
+      without being completely overbearing on them, and a decently long
+      story.
+    minus: |
+      Traversing the overworld can be a little tedious at times. I also
+      remember some of the later games being a bit annoying to get passing
+      scores on.
+
+- name: "LEGO Island: Xtreme Stunts"
+  platform: GameBoy Advance
+  firstStream: 2020-04-19
+  lastStream: 2020-04-19
+  rating: -1
+  finished: false
+  review:
+    plus: |
+      I like a lot of the individual minigames in this game, and they're
+      pretty much all well done (or at least as much as could be for the
+      time).
+    minus: |
+      There are several minigames that I'm not good at, and requiring
+      beating specific ones to unlock others means that I didn't actually
+      get to play all of the ones I did like. Also, in particular the one
+      with the block pushing puzzles always kicked you out after finishing
+      levels 1 and 3 to confer upon you the bronze and silver medals
+      instead of letting you keep running to the gold.
+    more:
+
+- name: LEGO Racers
+  platform: PC
+  firstStream: 2020-04-02
+  lastStream: 2020-04-02
+  rating: 1
+  finished: "I don't remember"
+  review:
+    plus: |
+      I like how the car stats are actually affected by the build of the
+      car. The power-up system also has good theming and variety, with the
+      color of bricks determining the type of power-up you get.
+    minus: |
+      There's little variety in tracks. GPs four through six are just GPs
+      one through three with all the tracks mirrored and in reverse order.
+      GP seven is literally just one track, and you have to use a name
+      cheat to play that one reversed.
+
+- name: LEGO Racers 2
+  platform: PC
+  firstStream: 2019-10-05
+  lastStream: 2023-09-23
+  rating: 1
+  finished: true
+  notes: |
+    I am a moderator for the [speedrun.com board](https://speedrun.com/lr2)
+    for this game.
+  review:
+    plus: |
+      This game rides high mostly on nostalgia for me, though I do at
+      least enjoy its variety of bonus games and I like how the tracks
+      reuse the overworld but with barriers set up, kinda like actually
+      setting up races in the world.
+    minus: |
+      Putting it lightly, the physics leave much to be desired. The AI can
+      also be unforgiving at times, though that may be a fair
+      counterbalance to what would otherwise be an easy 90-minute game.
+
+- name: LEGO Rock Raiders
+  platform: PC
+  firstStream: 2021-03-14
+  lastStream: 2021-04-04
+  rating: 1
+  finished: true
+  review:
+    plus: |
+      LEGO Rock Raiders is a decently-sized real-time strategy game for
+      kids. It's got easily explained mechanics, catchy music, and just
+      enough challenge for its target audience. It's not overly long or
+      overly short.
+    minus: |
+      It is an *absolute* jank-fest. It crashes randomly and at the drop
+      of a hat, those easily explained mechanics don't always work, one
+      mission even has a glitch in its objective so that going *over* the
+      collection goal doesn't count as a win! Sometimes it feels like a
+      miracle I even managed to 100% it.
+    more: |
+      It was apparently enough of a fan favorite for one of the fans to
+      remake it in its entirety!
+
+- name: Mages of Mystralia
+  platform: PC
+  firstStream: 2020-01-06
+  lastStream: 2020-01-11
+  continuous: true
+  rating: -1
+  finished: true
+  purchase:
+    humble:
+      pc: mages-of-mystralia
+      pcPlatform:
+      nin10:
+      nin10Platform:
+    steam: 529660
+    gog: mages_of_mystralia
+    nin10:
+      link: mages-of-mysgtralia-switch
+  disclosures:
+    humble: true
+  review:
+    plus: |
+      Mages of Mystralia is a short puzzle game involving defining your
+      spells from collectible elements and crafting them to bend the world
+      to your will. Since you build the spells piece-by-piece, there's a
+      ton of variety in what you can craft, and it doesn't always have to
+      be exact for you to get what you want.
+    minus: |
+      The story is decidedly incomplete. It feels like you've got a good
+      climax, but then a major plot twist happens! Then what? THE CREDITS!
+      Game over! Come back next time! Except there won't be a next time;
+      the studio appears to have completely died. The ending has left a
+      sour taste in my mouth for the game as a whole.
+
+- name: Mario Kart 8 Deluxe
+  platform: Nintendo Switch
+  firstStream: 2019-09-20
+  lastStream: 2023-09-23
+  rating: 1
+  finished: false
+  url: https://mariokart8.nintendo.com/
+  purchase:
+    humble:
+      nin10: mario-kart-8-deluxe
+    nin10:
+      link: mario-kart-8-deluxe-switch
+  review:
+    plus: |
+      Mario Kart 8 Deluxe has a good variety of tracks (especially with
+      the DLC), items, and characters. The physics are fun to drive around
+      in, and Smart Steering and Auto Accelerate are good accessibility
+      features.
+    minus: |
+      I'm not the biggest fan of Smart Steering being on by default.
+      Additionally, there's no way for the host to have control over rooms
+      such as who can play in them or which tracks get played, which makes
+      themed rooms (such as "let's play the new wave of tracks together on
+      stream!") impossible to enforce.
+
+- name: Minecraft
+  platform: PC, Switch
+  firstStream: 2019-11-03
+  lastStream: 2023-06-24
+  continuous: true
+  rating: 1
+  finished: true
+  url: https://www.minecraft.net/
+  purchase:
+    humble:
+      nin10: minecraft-switch
+    nin10:
+      link: minecraft-switch
+    xbox:
+      link: minecraft/9MVXMVT8ZKWC
+    ps: PS4
+    ios: minecraft/id479516143
+    android: com.mojang.minecraftpe
+    other:
+      name: Minecraft website
+      link: https://www.minecraft.net/store/minecraft-deluxe-collection-pc
+  review:
+    plus: |
+      I enjoy the freedom the game gives you; pretty much everything you
+      see can be moved or reworked into other things by default (even if
+      it takes some tools to get there) and the worlds just keep on
+      generating as you keep on walking.
+    minus: |
+      The game lacks guidance. Some updates like the one that added the
+      recipe book have attempted to mitigate this, but I don't feel like
+      it's quite enough for new players. Additionally, more recent updates
+      are pushing too far into the realm of realism or "education" and
+      sacrificing the air of fantasy that got me hooked on the game in the
+      first place.
+
 # - name:
 #   platform:
 #   firstStream:
