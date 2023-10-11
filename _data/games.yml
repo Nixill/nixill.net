@@ -827,7 +827,7 @@
 - name: Mario Kart 8 Deluxe
   platform: Nintendo Switch
   firstStream: 2019-09-20
-  lastStream: 2023-09-23
+  lastStream: 2023-09-30
   rating: 1
   finished: false
   url: https://mariokart8.nintendo.com/
@@ -883,6 +883,193 @@
       are pushing too far into the realm of realism or "education" and
       sacrificing the air of fantasy that got me hooked on the game in the
       first place.
+
+- name: Minit
+  platform: PC
+  firstStream: 2019-10-29
+  lastStream: 2019-10-29
+  continuous: true
+  rating: 1
+  finished: false
+  url: https://minitgame.com/
+  purchase:
+    humble:
+      pc: minit
+      nin10: minit-switch
+    steam: 609490
+    itch:
+      user: devolverdigital
+      game: minit
+    nin10:
+      link: minit-switch
+    xbox:
+      link: minit/c120v2wgrmch
+    ps: PS4
+    ios: minit/id1403550875
+    android: com.devolverdigital.minit
+  disclosures:
+    humble: true
+  notes:
+  review:
+    plus: |
+      Minit is a cute puzzler with a really good idea, and for the most
+      part, I think it executes it quite well.
+    minus: |
+      One complaint I have is that the realtime basis of the puzzle means
+      that even when you know what the right answer is, it can still be
+      difficult to actually implement it since you have to time everything
+      right.
+
+- name: Pokémon Colosseum
+  platform: GameCube
+  firstStream: 2020-05-26
+  lastStream: 2020-07-19
+  rating: 1
+  finished: true
+  url: https://www.pokemon.com/us/pokemon-video-games/pokemon-colosseum/
+  review:
+    plus: |
+      I admire some of the breaks from tradition this gen 3 game took. It
+      was the first Pokémon game to give you more than a single starter
+      Pokémon, as well as having the highest-leveled starters (at approx.
+      26.7 and 25.4), and every battle was a double battle without fail.
+      Also, Eeveelution starters are always a plus to me.
+    minus: |
+      This is the worst-localized official Pokémon game I've ever seen. It
+      gives the version of Pokémon Crystal that fans translated through
+      Vietnamese a run for its money in some places. There are also
+      several areas in the game that are way higher a level than the
+      player is expected to be, including the final boss suddenly being a
+      ten level jump from the penultimate fight.
+
+- name: Pokémon HeartGold
+  platform: Nintendo DS
+  firstStream: 2020-05-09
+  lastStream: 2021-05-23
+  rating: 1
+  finished: true
+  url: https://www.pokemon.com/us/pokemon-video-games/pokemon-heartgold-and-soulsilver-versions/
+  review:
+    plus: |
+      HeartGold and SoulSilver brought some welcome changes to the Pokémon
+      franchise, some of which only existed for those games while others
+      carried on beyond them. Every mainline game since Diamond/Pearl has
+      been on a system that has a touchscreen, but only HGSS had so many
+      controls *on* touch that it actually feels like it was built for it.
+      Having your Pokémon following you around was a beautiful touch too,
+      something I'm sad it took us another four generations to get back.
+    minus: |
+      The "GB Sounds" feature isn't a faithful recording of the existing
+      GSC soundtrack, but a recreation of it using the GBC soundfont. The
+      most egregious difference is in Dragon's Den ([Gold/Silver](https://www.youtube.com/watch?v=GyITttZd-ZE)
+      vs [HGSS GB Sounds](https://www.youtube.com/watch?v=EW7SENplWzk)).
+      I'm also sad that Contests weren't present here, despite the fact
+      that some things *were* added as compared to the original GSC.
+
+- name: "Pokémon Pinball: Ruby & Sapphire"
+  platform: GameBoy Advance
+  firstStream: 2020-02-09
+  lastStream: 2020-02-09
+  rating: 1
+  finished: false
+  url: https://www.pokemon.com/us/pokemon-video-games/pokemon-pinball-ruby-and-sapphire/
+  review:
+    plus: |
+      Pinball is fun. Add Pokémon and you've got a pretty good game. The
+      graphics have been much improved since the original.
+    minus: |
+      I'm not super good at pinball, and trying to collect all 200 Pokémon
+      on a pinball table seems a little tedious.
+
+- name: Pokémon Platinum
+  platform: Nintendo DS
+  firstStream: 2020-04-06
+  lastStream: 2020-05-12
+  continuous: true
+  rating: 1
+  finished: true
+  url: https://www.pokemon.com/us/pokemon-video-games/pokemon-platinum-version/
+  review:
+    plus: |
+      Platinum was a good entry for the Sinnoh region of Pokémon games,
+      bringing a couple changes with it from Diamond and Pearl like a
+      slightly colder region, the Global Terminal and Wi-Fi Plaza, and it
+      brought back the Battle Frontier from Emerald!
+    minus: |
+      The level curve isn't the greatest (let's be honest, I don't like
+      the level curve in most Pokémon games). Also, Platinum rearranged
+      the gyms as compared to Diamond/Pearl, and I think was the first
+      Pokémon game with a completely forced gym order (a trend that sadly
+      continued all the way through Sword and Shield).
+
+      Also, [its laughably slow HP bar animations](https://youtu.be/xDggqLNkmiw?t=70).
+
+- name: Pokémon Ranger
+  platform: Nintendo DS
+  firstStream: 2020-06-28
+  lastStream: 2020-07-18
+  continuous: true
+  rating: 0
+  finished: true
+  url: https://www.pokemon.com/us/pokemon-video-games/pokemon-ranger/
+  review:
+    plus: |
+      Pokémon Ranger had an interesting change to the mechanics of Pokémon
+      games, presenting more of a puzzle element than just a generic RPG.
+      It also doesn't really feature forced grinding to keep up in
+      strength with opponents, which is a big plus to me.
+    minus: |
+      I don't like the mechanic that you can only get a Pokémon's help
+      once per capture, and have to go catch them again to get their help
+      another time. It might be nicer if Pokémon you captured remembered
+      you but didn't particularly like leaving their home area. (Not to
+      mention that this is the only game in the series where you actually
+      *can't* take Pokémon out of their home area until you beat the game).
+
+- name: "Pokémon Ranger: Guardian Signs"
+  platform: Nintendo DS
+  firstStream: 2020-01-23
+  lastStream: 2020-03-19
+  continuous: true
+  rating: 1
+  finished: true
+  url: https://www.pokemon.com/us/pokemon-video-games/pokemon-ranger-guardian-signs/
+  review:
+    plus: |
+      The third installment in the series, Guardian Signs expands even
+      further on the Pokémon Ranger formula. I'm quite happy about the
+      titular Signs as a way of calling upon the help of certain Pokémon
+      *without* needing to capture them again (including, thankfully, the
+      one that gives you the ability to fast travel).
+    minus: |
+      I'm still not a fan of the Ranger Net missions being timed
+      downloadable content on servers that no longer exist. There are fans
+      that have preserved them, but officially they are now completely
+      unreachable and can't even be unlocked with just cheats.
+
+- name: Pokémon Super Mystery Dungeon
+  platform: Nintendo 3DS
+  firstStream: 2020-01-02
+  lastStream: 2020-01-09
+  continuous: true
+  rating: 0
+  finished: "Yes, but not on stream"
+  url: https://www.pokemon.com/us/pokemon-video-games/pokemon-super-mystery-dungeon/
+  review:
+    plus: |
+      It's got a great story. I can't quite remember the whole thing right
+      now as I'm writing this review more than *six* years after I
+      finished the game, but I can remember being pretty happy with it.
+    minus: |
+      It's got the worst gameplay of any Pokémon Mystery Dungeon. Accuracy
+      is in general a lot worse than you'd expect it to be, with moves
+      just missing all the time, to the point that someone getting several
+      misses in a row has become a joke of "Welcome to Super" among myself
+      and some friends. The "normal attack" has become nerfed to the point
+      that it's near useless except to look for traps and you have to rely
+      on extremely limited pools of moves and finding items in the dungeon
+      to replenish those moves.
+    more:
 
 # - name:
 #   platform:
