@@ -13,16 +13,22 @@ This schedule is subject to change without notice.
 
 All streams run **<span id="startTime">6:00 PM</span>** through **<span id="endTime">10:00 PM</span>**.
 
-* **<span id="tuesday">Tuesday</span>**: Pokémon Scarlet: The Teal Mask DLC
+* **<span id="tuesday">Tuesday</span>**: Pokémon OmegaRubin (Pokémon OmegaRuby in German)
 * **<span id="thursday">Thursday</span>**: Advance Wars 1+2 Re-Boot Camp
 * **<span id="saturday">Saturday</span>**: Manic Miners Remastered Campaign: First Person Mode
 * **The <span id="last">last</span> day of every month**: Mario Kart 8 Deluxe: Community Multiplayer
+
+<span id="change-notice"></span>
 
 <script src="/scripts/luxon.js"></script>
 <script>
   var DateTime = luxon.DateTime;
   // Set the timezone to my own
   var now = DateTime.now().setZone("America/Detroit");
+  // Save the following for testing
+  // var now = DateTime.fromObject({
+  //   year: 2023, month: 10, day: 15, hour: 0, minute: 0, second: 0
+  // }, { zone: "America/Detroit" });
   // Set all the times and days correctly
   var streamStart = now.set({ hour: 18, minute: 0, second: 0 });
   var streamEnd = now.set({ hour: 22, minute: 0, second: 0 });
@@ -31,19 +37,42 @@ All streams run **<span id="startTime">6:00 PM</span>** through **<span id="endT
   var saturday = streamStart.set({ weekday: 6 });
   // Set all timezones to the reader's
   var localZone = "local";
-  streamStart = streamStart.setZone(localZone);
+  var localStreamStart = streamStart.setZone(localZone);
   streamEnd = streamEnd.setZone(localZone);
   tuesday = tuesday.setZone(localZone);
   thursday = thursday.setZone(localZone);
   saturday = saturday.setZone(localZone);
   // And now set the spans above
-  document.getElementById("startTime").innerText = streamStart.toLocaleString(DateTime.TIME_SIMPLE);
+  document.getElementById("startTime").innerText = localStreamStart.toLocaleString(DateTime.TIME_SIMPLE);
   document.getElementById("endTime").innerText = streamEnd.toLocaleString(DateTime.TIME_SIMPLE);
   document.getElementById("tuesday").innerText = tuesday.weekdayLong;
   document.getElementById("thursday").innerText = thursday.weekdayLong;
   document.getElementById("saturday").innerText = saturday.weekdayLong;
   document.getElementById("last").innerText = (tuesday.weekday == 2)?"last":"first";
   document.getElementById("time-notice").innerText = "✅ The days and times below are in your local time.";
+  // Look ahead for time changes
+  var lastHour = localStreamStart.hour;
+  var changes = [];
+  for (var i = 1; i <= 21; i++) {
+    var localDay = streamStart.plus({ days: i }).setZone(localZone);
+    var hour = localDay.hour;
+    if (hour != lastHour) {
+      changes.push(localDay);
+    }
+    lastHour = hour;
+  }
+  // Output time changes
+  if (changes.length == 1) {
+    document.getElementById("change-notice").innerText =
+      "⚠ Stream time will be changing to " + changes[0].toLocaleString(DateTime.TIME_SIMPLE) +
+      " on " + changes[0].toLocaleString({day: "numeric", month: "long"}) + ".";
+  } else if (changes.length == 2) {
+    document.getElementById("change-notice").innerText =
+      "⚠ Stream time will be changing to " + changes[0].toLocaleString(DateTime.TIME_SIMPLE) +
+      " on " + changes[0].toLocaleString({day: "numeric", month: "long"}) +
+      ", and then to " + changes[1].toLocaleString(DateTime.TIME_SIMPLE) +
+      " on " + changes[1].toLocaleString({day: "numeric", month: "long"}) + ".";
+  }
 </script>
 
 # Chat rules
