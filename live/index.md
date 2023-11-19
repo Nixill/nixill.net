@@ -14,8 +14,8 @@ This schedule is subject to change without notice.
 All streams run **<span id="startTime">6:00 PM</span>** through **<span id="endTime">10:00 PM</span>**.
 
 * **<span id="tuesday">Tuesday</span>**: Pokémon OmegaRubin (Pokémon OmegaRuby in German)
-* **<span id="thursday">Thursday</span>**: Advance Wars 1+2 Re-Boot Camp
-* **<span id="saturday">Saturday</span>**: Manic Miners Remastered Campaign: First Person Mode
+* **<span id="thursday">Thursday</span>**: Tryout Thursday (various games I wanna try)
+* **<span id="saturday">Saturday</span>**: TUNIC (blind playthrough, no spoilers!)
 * **The <span id="last">last</span> day of every month**: Mario Kart 8 Deluxe: Community Multiplayer
 
 <span id="change-notice"></span>
@@ -87,3 +87,11 @@ Please adhere to the following rules when chatting:
 7. **Please don't mention the viewer count.** I've hidden it from my views on purpose. I'll take a look after the stream.
 
 I will not be impressed by attempts to find loopholes or edge cases to these rules, and reserve the right to be more or less lenient on them on a person-by-person or case-by-case basis.
+
+## German streams
+The following additional rules apply when I'm playing a game in German and translating it for stream:
+
+1. **Don't translate it for me.** I want to try and translate it on my own first. Once I have, you can critique or correct my translations.
+2. **Don't use online translation.** Please only offer critique if you actually know (or are learning) German yourself.
+3. **The English source material is irrelevant.** There is no guarantee that the German localization is intended to be identical in meaning to the English.
+4. **German is allowed in chat,** but expect me to be slow to acknowledge it and I will likely reply in English.
