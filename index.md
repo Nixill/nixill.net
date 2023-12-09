@@ -19,4 +19,7 @@ I have a [Twitch channel](https://l.nixill.net/ttv)! More info about what you ca
 [Mods for NecroDancer](/mods)
 : I'm coding some mods for Crypt of the NecroDancer!
 
+[C# Code](/csharp)
+: I also write a bit in C#!
+
 # Posts
