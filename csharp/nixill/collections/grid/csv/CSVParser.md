@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CSVParser class (Nixill.Collections.Grid.CSV)
-permalink: /csharp/nixill/collections/CSVParser
+permalink: /csharp/nixill/collections/grid/csv/CSVParser
 ---
 
 This class contains static methods to convert between Grids of strings and comma separated value format files and text.

@@ -1,0 +1,124 @@
+---
+layout: page
+title: OffsetGrid\<T\> class (Nixill.Collections.Grid)
+permalink: /csharp/nixill/collections/grid/OffsetGrid-T
+---
+
+An `OffsetGrid<T>` is a type of grid that "floats" in space rather than being anchored to 0, 0. As a result, it has methods to add data on all sides.
+
+`public class OffsetGrid<T> : IGrid<T>`
+
+# Type parameters
+- `T` - The type of objects contained within the grid.
+
+# Constructors
+There are three constructor overloads:
+
+- `()` - Creates a blank, 0x0 Grid.
+- `(IEnumerable<IEnumerable<T>> list, int rowOffset = 0, int colOffset = 0)` - Creates a new grid from an existing list of lists.
+- `(int width, int height, int rowOffset = 0, int colOffset = 0)` - Creates a new grid of the specified size, with all cells initiated to the default value for `T`.
+
+These constructors may be passed an initial `rowOffset` or `colOffset`.
+
+# Properties
+# `Bottom`
+`int` - Gets the index of the bottom row of the Grid.
+
+# `Left`
+`int` - Gets the index of the leftmost column of the Grid.
+
+# `Right`
+`int` - Gets the index of the rightmost column of the Grid.
+
+# `Top`
+`int` - Gets the index of the top row of the Grid.
+
+## Implemented from `IGrid<T>`:
+- `T this[GridReference gr]` - Gets or sets the object at a specified position in the grid.
+- `T this[int r, int c]` - Gets or sets the object at a specified position in the grid, using a grid reference specified by 0-indexed row and column.
+- `T this[string gr]` - Gets or sets the object at a specified position in the grid, using a grid reference specified by text in A1 or R1C1 notation.
+- `IEnumerable<IEnumerable<T>> Columns` - Gets the columns of the Grid in an enumerable form. The columns are enumerated from left (column 0) to right (column `Width` - 1). Within each column, the cells are enumerated top (row 0) to bottom (row `Height` - 1).
+- `int Height` - Gets the number of rows in the Grid.
+- `int Size` - Gets the height times the width of the Grid.
+- `IEnumerable<IEnumerable<T>> Rows` - Gets the rows of the Grid in an enumerable form. The rows are enumerated from top (row 0) to bottom (row `Height` - 1). Within each row, the cells are enumerated left (column 0) to right (column `Width` - 1).
+- `int Width` - Gets the number of columns in the Grid.
+
+# Methods
+## `AddColumnLeft()`, `AddColumnLeft(Func<int, T>)`, `AddColumnLeft(Func<T>)`, `AddColumnLeft<U>(IEnumerable<U>)`, `AddColumnLeft(T)`
+The same as the respective overloads of `AddColumn()`, except the column is added at the left of the grid instead, leaving all existing positions the same and moving the `Left`.
+
+Note for the `Func<int, T>` overload, the int is always 0-indexed rather than `Top`-indexed.
+
+## `AddRowTop()`, `AddRowTop(Func<int, T>)`, `AddRowTop(Func<T>)`, `AddRowTop<U>(IEnumerable<U>)`, `AddRowTop(T)`
+The same as the respective overloads of `AddRow()`, except the row is added at the top of the grid instead, leaving all existing positions the same and moving the `Top`.
+
+Note for the `Func<int, T>` overload, the int is always 0-indexed rather than `Left`-indexed.
+
+## `InsertColumnShiftLeft(int)`, `InsertColumnShiftLeft(int, Func<int, T>)`, `InsertColumnShiftLeft(int, Func<T>)`, `InsertColumnShiftLeft<U>(int, IEnumerable<U>)`, `InsertColumnShiftLeft(int, T)`
+The same as the respective overloads of `InsertColumn()`, except that once a column is inserted, all columns to the right stay in the same place and all columns to the left move left by 1.
+
+Note for the `Func<int, T>` overload, the int is always 0-indexed rather than `Top`-indexed.
+
+## `InsertRowShiftUp(int)`, `InsertRowShiftUp(int, Func<int, T>)`, `InsertRowShiftUp(int, Func<T>)`, `InsertRowShiftUp<U>(int, IEnumerable<U>)`, `InsertRowShiftUp(int, T)`
+The same as the respective overloads of `InsertRow()`, except that once a row is inserted, all rows below stay in the same place and all rows above move up by 1.
+
+Note for the `Func<int, T>` overload, the int is always 0-indexed rather than `Left`-indexed.
+
+## `RemoveColumnAt(int)`
+`void` - Removes a column from the Grid.
+
+Parameters:
+- `int` **`col`** - Which column should be removed.
+
+## `RemoveColumnShiftRight(int)`
+`void` - Removes a column from the grid, then shifts it to the right (such that columns to the left of the removal move rightward and columns to the right do not move).
+
+Parameters:
+- `int` **`col`** - Which column should be removed.
+
+## `RemoveRowAt(int)`
+`void` - Removes a row from the grid.
+
+Parameters:
+- `int` **`row`** - Which row should be removed.
+
+## `RemoveRowShiftDown(int)`
+`void` - Removes a row from the grid, then shifts it down (such that rows above the removal move downward and rows below do not move).
+
+Parameters;
+- `int` **`row`** - Which row should be removed.
+
+## Implemented from `IGrid<T>`:
+- `void AddColumn()` - Adds an empty column to the right side of the Grid. All values in the column are initialized to `default(T)`.
+- `void AddColumn(Func<T> columnItemFunc)` - Adds a column to the right side of the Grid with its values generated by `columnItemFunc` (which is run once per row of the Grid and should return the value to add to the column).
+- `void AddColumn(Func<int, T> columnItemFunc)` - Adds a column to the right side of the Grid with its values generated by `columnItemFunc` (which is run once per row of the Grid, receives that row number as its `int` parameter, and should return the value to add to the column in that row).
+- `void AddColumn<U>(IEnumerable<U> column)` - Adds a column of existing data to the right side of the Grid. `U` is any subclass of `T`.
+- `void AddColumn(T columnItem)` - Adds a column to the right side of the Grid with all values initialized to `columnItem`.
+- `void AddRow()` - Adds an empty row to the bottom of the Grid. All values in the row are initialized to `default(T)`.
+- `void AddRow(Func<T> rowItemFunc)` - Adds a row to the bottom of the Grid with its values generated by `rowItemFunc` (which is run once per column of the Grid and should return the value to add to the row).
+- `void AddRow(Func<int, T> rowItemFunc)` - Adds a row to the bottom of the Grid with its values generated by `rowItemFunc` (which is run once per column of the Grid, receives that column number as its `int` parameter, and should return the value to add to the row in that column).
+- `void AddRow<U>(IEnumerable<U> row)` - Adds a row of existing data to the bottom of the Grid. `U` is any subclass of `T`.
+- `void AddRow(T rowItem)` - Adds a row to the bottom of the Grid with all values initialized to `rowItem`.
+- `void Clear()` - Clears the Grid, also resetting its internal size.
+- `bool Contains(T item)` - Returns `true` iff the Grid contains `item`; `false` otherwise.
+- `IList<T> GetColumn(int index)` - Returns a copy of a column in the Grid.
+- `IEnumerator<IEnumerable<T>>` - Returns an enumerator over the columns of the Grid, similar to the `Columns` property.
+- `IList<T> GetRow(int index)` - Returns a copy of a row in the Grid.
+- `GridReference IndexOf(T item)` - Returns a GridReference pointing to the first instance of `item`. Prioritizes items in lower-indexed rows.
+- `GridReference IndexOfTransposed(T item)` - Returns a GridReference pointing to the first instance of `item`. Prioritizes items in lower-indexed columns.
+- `void InsertColumn(int before)` - Inserts an empty column into the Grid. All values in the column are initialized to `default(T)`.
+- `void InsertColumn(int before, Func<T> columnItemFunc)` - Inserts a column into the Grid with its values generated by `columnItemFunc` (which is run once per row of the Grid and should return the value to add to the column).
+- `void InsertColumn(int before, Func<int, T> columnItemFunc)` - Inserts a column into the Grid with its values generated by `columnItemFunc` (which is run once per row of the Grid, receives that row number as its `int` parameter, and should return the value to add to the column in that row).
+- `void InsertColumn<U>(int before, IEnumerable<U> column)` - Inserts a column of existing data into the Grid. `U` is any subclass of `T`.
+- `void InsertColumn(int before, T columnItem)` - Inserts a column into the Grid with all values initialized to `columnItem`.
+- `void InsertRow(int before)` - Inserts an empty row into the Grid. All values in the row are initialized to `default(T)`.
+- `void InsertRow(int before, Func<T> rowItemFunc)` - Inserts a row into the Grid with its values generated by `rowItemFunc` (which is run once per column of the Grid and should return the value to add to the row).
+- `void InsertRow(int before, Func<int, T> rowItemFunc)` - Inserts a row into the Grid with its values generated by `rowItemFunc` (which is run once per column of the Grid, receives that column number as its `int` parameter, and should return the value to add to the row in that column).
+- `void InsertRow<U>(int before, IEnumerable<U> row)` - Inserts a row of existing data into the Grid. `U` is any subclass of `T`.
+- `void InsertRow(int before, T rowItem)` - Inserts a row into the Grid with all values initialized to `rowItem`.
+
+## Implemented from `IEnumerable<IEnumerable<T>>`:
+- `IEnumerator<IEnumerable<T>> GetEnumerator()` - Returns an enumerator over the rows of the Grid, similar to the `Rows` property.
+
+## Implemented from `IEnumerable`:
+- `IEnumerator IEnumerable.GetEnumerator()` - Same as `GetEnumerator()` but with its return value cast to non-genreic `IEnumerator`.
