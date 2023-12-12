@@ -6,7 +6,7 @@ permalink: /csharp/nixill/utils/FileUtils
 
 Utilities for working with files.
 
-`public class FileUtils`
+`public static class FileUtils`
 
 # Static methods
 ## `FileCharEnumerator(string)`

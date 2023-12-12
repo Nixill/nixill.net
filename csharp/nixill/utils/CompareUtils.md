@@ -6,6 +6,8 @@ permalink: /csharp/nixill/utils/CompareUtils
 
 Methods with which to ease making comparisons in other classes.
 
+`public static class CompareUtils`
+
 # Static methods
 ## `FirstNonZero(int...)`
 Returns the first non-zero parameter. If all parameters are zero, or no parameters are supplied, zero is returned.

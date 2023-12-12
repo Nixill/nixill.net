@@ -6,7 +6,7 @@ permalink: /csharp/nixill/utils/NumberUtils
 
 Provides utilities for working with or converting numbers.
 
-`public class NumberUtils`
+`public static class NumberUtils`
 
 # Static methods
 ## `CharToInt(chr)`
@@ -18,6 +18,16 @@ Parameters:
 - `char` **`chr`** - The character to convert.
 
 Returns: The character as converted.
+
+## `GCD(A, A)`
+`A` - Returns the greatest common divisor (or greatest common factor) of two numbers.
+
+Type parameters:
+- `A` - Not truly a type parameter. Instead, it is a stand-in here for `int` or `long`.
+
+Parameters:
+- `A` **`a`** - One of the two numbers for which to find the GCD.
+- `A` **`b`** - The other number for which to find the GCD.
 
 ## `HasAllBits(int, int)`
 `bool` - Returns true iff the source number has all of the target bits.
@@ -80,6 +90,15 @@ Parameters:
 
 Returns: The number as converted.
 
+## `LCM(long, long)`
+`long` - Returns the least common multiple of two numbers.
+
+Parameters:
+- `long` **`a`** - One number out of two for the operation.
+- `long` **`b`** - The other number for the operation.
+
+Returns: The least common multiple of `a` and `b`.
+
 ## `LeadingZeroStringToInt(string, int)`
 `int` - Converts a bijective number to an int.
 
@@ -93,12 +112,15 @@ Parameters:
 
 Returns: The number as converted.
 
-## `NNMod`
-Returns the non-negative modulus of division of `n` by `d`.
+## `NNMod(A, A)`
+`A` - Returns the non-negative modulus of division of `n` by `d`.
+
+Type parameters:
+- `A` - Not truly a type parameter. Instead, it is just a stand-in here for `int`, `long`, `float`, `double`, or `decimal`.
 
 Parameters:
-- **`n`** - The numerator of this division.
-- **`d`** - The denominator of this division.
+- `A` **`n`** - The numerator of this division.
+- `A` **`d`** - The denominator of this division.
 
 Return: The modulus of dividing `n` by `d`. If either is negative, a positive modulus is still returned.
 

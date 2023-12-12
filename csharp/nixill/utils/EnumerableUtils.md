@@ -72,6 +72,24 @@ Parameters:
 Returns: An enumerable containing **infinite output**, the result of copying `item` indefinitely.
 
 # Extension methods
+## `IEnumerable<T>.AggregateFromFirst<T>(Func<T, T, T>)`
+`T` - Aggregates together a series of elements, skipping the first element and instead using it directly as the seed.
+
+Type parameters:
+- `T` - The type of elements in the series.
+
+Parameters:
+- `this IEnumerable<T>` **`elems`** - The sequence to aggregate.
+- `Func<T, T, T>` **`aggregation`** - The aggregation function.
+  - `T` - The existing aggregate up to this point in the sequence.
+  - `T` - The next item in sequence.
+  - Returns: `T` - The aggregate of all those items plus the next.
+
+Returns: The aggregate of all the items.
+
+Exceptions:
+- `InvalidOperationException` - If the sequence contains no elements.
+
 ## `IEnumerable<TSource>.ChunkWhile<TSource>(Func<TSource, bool>)`
 `IEnumerable<IEnumerable<TSource>>` - Splits the original enumerable up into chunks of consecutive objects that satisfy a condition.
 
@@ -225,7 +243,35 @@ Parameters:
 
 Returns: An enumerable over all objects from `list` that map to the maximum value.
 
-## `IListt<T>.Pop()`
+## `IEnumerable<T>.Permutations<T>(int)`
+`IEnumerable<IEnumerable<T>>` - Exhaustively returns an enumeration over all possible orderings of the original enumeration.
+
+Note that this method doesn't check equality of elements, and will return duplicate orders for sequences with duplicate elements. For example, `"121".Permutations()` returns the orderings `121`, `112`, `211`, `211`, `112`, `121`, in that order. To exclude duplicates, use `PermutationsDistinct()` instead.
+
+Type parameters:
+- `T` - The type of objects in the list.
+
+Parameters:
+- `this IEnumerable<TSource>` **`elems`** - The original enumerable.
+- `int` **`limit`** = 0 - The maximum number of elements to select in each permutation. For `limit <= 0`, all but -limit items will be taken instead (this also means that limit=0 will select the whole list).
+
+Returns: An enumerable that contains the original enumerable with its elements arranged in every possible order.
+
+## `IEnumerable<T>.PermutationsDistinct<T>(int)`
+`IEnumerable<IEnumerable<T>>` - Returns an enumeration over all possible distinct orderings of the original enumeration.
+
+This method checks equality of elements, and will not return duplicate orders for sequences with duplicate elements. For example, `"121".PermutationsDistinct()` returns the orderings `121`, `112`, `211`, in that order. To include duplicates, use `Permutations()` instead.
+
+Type parameters:
+- `T` - The type of objects in the list.
+
+Parameters:
+- `this IEnumerable<TSource>` **`elems`** - The original enumerable.
+- `int` **`limit`** = 0 - The maximum number of elements to select in each permutation. For `limit <= 0`, all but -limit items will be taken instead (this also means that limit=0 will select the whole list).
+
+Returns: An enumerable that contains the original enumerable with its elements arranged in every possible distinct order.
+
+## `IList<T>.Pop()`
 `T` - Removes the first item from a list and returns it.
 
 Parameters:
@@ -263,6 +309,35 @@ Parameters:
   - Returns: An object representing the combination of the two.
 
 Returns: An enumerable over all the combined objects.
+
+## `IEnumerable<T>.Repeat(int)`
+`IEnumerable<T>` - Enumerates over a sequence, concatenated to itself for a total of `count` loops.
+
+For example, `new char[] {'a', 'b'}.Repeat(5)` will output an enumerable over `{'a', 'b', 'a', 'b', 'a', 'b', 'a', 'b', 'a', 'b'}`.
+
+Type parameters:
+- `T` - The type of objects in the enumerable.
+
+Parameters:
+- `this IEnumerable<T>` **`seq`** - The sequence to repeat.
+- `int` **`count`** - The number of times to repeat the sequence.
+
+Returns: An enumerable over the repeating sequence.
+
+## `IEnumerable<T>.RepeatInfinite()`
+`IEnumerable<T>` - Enumerates over a sequence, concatenated to itself infinitely.
+
+For example, `new char[] {'a', 'b'}.RepeatInfinite()` will output an enumerable over `{'a', 'b', 'a', 'b', 'a', 'b', …`.
+
+**Produces infinite output. Do not use with methods that instantly enumerate a whole enumerable.**
+
+Type parameters:
+- `T` - The type of objects in the enumerable.
+
+Parameters:
+- `this IEnumerable<T>` **`seq`** - The sequence to repeat.
+
+Returns: An enumerable over **infinite output**, repeating the original sequence indefinitely.
 
 ## `IEnumerable<TSource>.WhereOrdered<T>(bool, bool)`
 `IEnumerable<T>` - Enumerates over objects in `sequence` that are larger than the previously yielded objects.
@@ -325,3 +400,16 @@ Parameters:
 - `bool` **`distinctly`** = false - If `false`, also yield objects *equal to* the last yielded object.
 
 Returns: An enumerable that limits the original's objects as described above.
+
+## `IEnumerable<T>.WithIndex()`
+`IEnumerable<(T Item, int Index)>` - Adds the index to each element in a sequence. `x.WithIndex()` is a shortcut for `x.Select((x, i) => (x, i))`.
+
+Type parameters:
+- `T` - The type of elements in the original sequence.
+
+Parameters:
+- `this IEnumerable<T>` **`original`** - The original sequence.
+
+Returns: Tuples of:
+- `T` - An original item from the sequence.
+- `int` - That item's index within the sequence.
