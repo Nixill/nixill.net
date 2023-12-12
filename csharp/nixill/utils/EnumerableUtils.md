@@ -90,7 +90,7 @@ Returns: The aggregate of all the items.
 Exceptions:
 - `InvalidOperationException` - If the sequence contains no elements.
 
-## `IEnumerable<TSource>.ChunkWhile<TSource>(Func<TSource, bool>)`
+## `IEnumerable<TSource>.ChunkWhile<TSource>(Func<TSource, bool>, bool, bool, bool)`
 `IEnumerable<IEnumerable<TSource>>` - Splits the original enumerable up into chunks of consecutive objects that satisfy a condition.
 
 Remarks: Each single chunk is enumerated all at once and stored into a list; those lists are `yield return`ed by this function. When there's a large chunk of values that satisfy the condition, this method will not yield until one that doesn't is found. Use caution when using infinite enumerables with this method.
@@ -100,9 +100,35 @@ Type parameters:
 
 Parameters:
 - `this IEnumerable<T>` **`items`**: The original enumerable.
-- `Func<TSource, bool>` **`predicate`**: The condition that must be satisfied by consecutive items.
+- `Func<TSource, bool>` **`predicate`**: The condition that must be satisfied by consecutive items to form one chunk.
+  - `TSource` - The item being checked for the condition.
+  - Returns `bool` - Whether or not that item passes the condition.
+- `bool` **`appendFails`** = false: Whether or not an item that fails the predicate should be appended to the chunk it ends.
+- `bool` **`prependFails`** = false: Whether or not an item that fails the predicate should be prepended to the chunk it starts.
+- `bool` **`skipEmpty`** = false: Whether or not empty chunks should be skipped.
 
-Returns: An enumerable containing chunks 
+Returns: An enumerable containing chunks as described above.
+
+## `IEnumerable<TSource>.ChunkWhile<TSource>(Func<TSource, TSource, bool>, TSource, bool, bool, bool)`
+`IEnumerable<IEnumerable<TSource>>` - Splits the original enumerable up into chunks of consecutive objects that satisfy a condition.
+
+Remarks: Each single chunk is enumerated all at once and stored into a list; those lists are `yield return`ed by this function. When there's a large chunk of values that satisfy the condition, this method will not yield until one that doesn't is found. Use caution when using infinite enumerables with this method.
+
+Type parameters:
+- `TSource` - The type of objects in the enumerable.
+
+Parameters:
+- `this IEnumerable<T>` **`items`**: The original enumerable.
+- `Func<TSource, TSource, bool>` **`predicate`**: The condition that must be satisfied by consecutive items.
+  - `TSource` - The *previous* item in the list. Defaults to `firstComparison`.
+  - `TSource` - The item being checked for the condition.
+  - Returns `bool` - Whether or not that item passes the condition.
+- `TSource` **`firstComparison`** = default(TSource) - The value that should be "previous" to the first item in the list.
+- `bool` **`appendFails`** = false - Whether or not an item that fails the predicate should be appended to the chunk it ends.
+- `bool` **`prependFails`** = false - Whether or not an item that fails the predicate should be prepended to the chunk it starts.
+- `bool` **`skipEmpty`** = false - Whether or not empty chunks should be skipped.
+
+Returns: An enumerable containing chunks as described above.
 
 ## `IEnumerable<T>.Do<T>(Action<T>)`
 `void` - Performs an action for every item in the list.
