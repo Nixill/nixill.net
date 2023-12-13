@@ -130,6 +130,22 @@ Parameters:
 
 Returns: An enumerable containing chunks as described above.
 
+## `IEnumerable<T>.Combinations<T>(int limit)`
+`IEnumerable<IEnumerable<T>>` - Returns an enumeration over all possible combinations of the original enumeration.
+
+Note that this method doesn't check equality of elements, so it'll return duplicate combinations for sequences with duplicate elements. For example, `"121".Combinations(2)` returns `12`, `11`, and `21`, in that order. No method currently exists to exclude duplicates, but you can always `Distinct()` the incoming sequence.
+
+The original relative order of elements is preserved for this list. For example, `"27369".Combinations(2)` returns `27`, `23`, `26`, `29`, `73`, `76`, `79`, `36`, `39`, and `69`, in that order.
+
+Type parameters:
+- `T` - The type of objects in the list.
+
+Parameters:
+- `this IEnumerable<T>` **`elems`** - The original enumerable.
+- `int` **`limit`** - The maximum number of elements to select in each combination. For `limit <= 0`, all but -limit items will be taken instead (this also means that limit=0 will select the whole list). Note: limit=0 is rather useless as the returned enumerable will contain only one item which is the original enumerable.
+
+Returns: An enumerable that contains the original enumerable with every possible combination of items of length `limit`.
+
 ## `IEnumerable<T>.Do<T>(Action<T>)`
 `void` - Performs an action for every item in the list.
 
@@ -281,7 +297,7 @@ Parameters:
 - `this IEnumerable<TSource>` **`elems`** - The original enumerable.
 - `int` **`limit`** = 0 - The maximum number of elements to select in each permutation. For `limit <= 0`, all but -limit items will be taken instead (this also means that limit=0 will select the whole list).
 
-Returns: An enumerable that contains the original enumerable with its elements arranged in every possible order.
+Returns: An enumerable that contains the original enumerable with `limit` of its elements arranged in every possible order.
 
 ## `IEnumerable<T>.PermutationsDistinct<T>(int)`
 `IEnumerable<IEnumerable<T>>` - Returns an enumeration over all possible distinct orderings of the original enumeration.
