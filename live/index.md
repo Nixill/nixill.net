@@ -15,7 +15,7 @@ All streams run **<span id="startTime">6:00 PM</span>** through **<span id="endT
 
 * **<span id="tuesday">Tuesday</span>**: Pokémon Scarlet (Pokédex completion)
 * **<span id="thursday">Thursday</span>**: Tryout Thursday (various games I wanna try)
-* **<span id="saturday">Saturday</span>**: Hi-Fi RUSH (blind playthrough, no spoilers!)
+* **<span id="saturday">Saturday</span>**: Ori and the Blind Forest (blind playthrough, no spoilers!)
 * **The <span id="last">last</span> day of every month**: Mario Kart 8 Deluxe: Community Multiplayer
 
 <span id="change-notice"></span>
