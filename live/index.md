@@ -13,9 +13,9 @@ This schedule is subject to change without notice.
 
 All streams run **<span id="startTime">6:00 PM</span>** through **<span id="endTime">10:00 PM</span>**.
 
-* **<span id="tuesday">Tuesday</span>**: Pokémon Scarlet (Pokédex completion)
-* **<span id="thursday">Thursday</span>**: Tryout Thursday (various games I wanna try)
-* **<span id="saturday">Saturday</span>**: Ori and the Blind Forest (blind playthrough, no spoilers!)
+* **<span id="tuesday">Tuesday</span>**: Pokémon Ranger: Guardian Signs (Low% routing)
+* **<span id="thursday">Thursday</span>**: Wildcard Thursday (various games I wanna try)
+* **<span id="saturday">Saturday</span>**: Euro Truck Simulator 2 (Map exploration)
 * **The <span id="last">last</span> day of every month**: Mario Kart 8 Deluxe: Community Multiplayer
 
 <span id="change-notice"></span>
