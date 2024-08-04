@@ -49,3 +49,16 @@ Parameters:
 - `K` **`key`** - The key for which a value should be generated.
 
 Returns: The generated value.
+
+## `Wrap()`
+`DictionaryGenerator<K, V>` - Creates an empty `DictionaryGenerator<K, V>` with this `Generator`.
+
+Returns: The created `DictionaryGenerator<K, V>`.
+
+## `Wrap(IDictionary<K, V>)`
+`DictionaryGenerator<K, V>` - Creates a `DictionaryGenerator<K, V>` wrapping `dict` with this `Generator`.
+
+Parameters:
+- `IDictionary<K, V>` **`dict`** - The dictionary to be wrapped.
+
+Returns: The created `DictionaryGenerator<K, V>`.

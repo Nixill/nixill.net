@@ -11,11 +11,26 @@ A `DictionaryGenerator<K, V>` wraps around an `IDictionary<K, V>` to add automat
 - `V`: The type of values contained within the dictionary.
 
 # Constructors
-This class contains three constructor overloads:
+This class contains eight constructor overloads:
 
-- `()` - Creates a new `Dictionary<K, V>` and uses a new `DefaultGenerator<K, V>` on it.
-- `(Generator<K, V>)` - Creates a new `Dictionary<K, V>` and uses the specified `Generator<K, V>` on it.
-- `(IDictionary<K, V>, Generator<K, V>)` - Wraps an existing `IDictionary<K, V>` and uses the specified `Generator<K, V>` on it.
+- `DictionaryGenerator(IDictionary<K, V> dict, Generator<K, V> gen, bool storeValues = true)`
+- `DictionaryGenerator()`
+- `DictionaryGenerator(bool storeValues)`
+- `DictionaryGenerator(Generator<K, V> gen, bool storeValues = true)`
+- `DictionaryGenerator(Func<K, V> genFunc, bool storeValues = true)`
+- `DictionaryGenerator(IDictionary<K, V> dict, Func<K, V>, bool storeValues = true)`
+- `DictionaryGenerator(V item, bool storeValues = true)`
+- `DictionaryGenerator(IDictionary<K, V> dict, V item, bool storeValues = true)`
+
+The parameters have the following meanings:
+- `IDictionary<K, V>` **`dict`**: The existing dictionary to wrap. Overloads without this parameter create a new `Dictionary<K, V>` instead.
+- One of the following parameters:
+  - `Generator<K, V>` **`gen`**: Uses the specified `Generator`.
+  - `Func<K, V>` **`genFunc`**: Uses the specified `Func` in a new `FuncGenerator<K, V>`.
+  - `V` **`item`**: Uses the specified `V` in a new `SingleValueGenerator<K, V>`.
+  - Overloads with none of those parameters use a `DefaultGenerator<K, V>` instead.
+- `bool` **`storeValues`**: When getting a key not in the dictionary, should the generated value be stored in the dictionary?
+  - Defaults to `true` in all overloads except `(bool)`, where it's non-optional to avoid ambiguity with the empty constructor.
 
 # Properties
 ## `this[K]`
@@ -37,6 +52,9 @@ If the specified key is not found, a get operation will automatically generate a
 
 ## `Keys`
 `ICollection<K>` - Gets a collection of the keys contained in the underlying `IDictionary<K, V>`.
+
+## `StoreGeneratedValues`
+`bool` - Whether or not to store newly generated values when a key is not found in the dictionary during a get operation. Does not affect previously generated values, whether they were or weren't stored.
 
 ## `Values`
 `ICollection<V>` - Gets a collection of the values contained in the underlying `IDictionary<K, V>`.

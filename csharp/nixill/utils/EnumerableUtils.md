@@ -169,6 +169,57 @@ Parameters:
   - `T`: The item from `list`.
   - `int`: The index of the item within the enumerable.
 
+## `IEnumerable<T>.ExceptDualBy<T, K>(IEnumerable<T>, Func<T, K>)`
+`IEnumerable<T>` - Returns a sequence with all of the members of the original, except for those present (when both sequences are compared with a mutual mutator) in the second.
+
+Type parameters:
+- `T` - The type of items in the original and second enumerables.
+- `K` - The type of keys by which items are compared.
+
+Parameters:
+- `this IEnumerable<T>` **`first`**: The original sequence from which to exclude items.
+- `IEnumerable<T>` **`second`**: The sequence containing items to remove from the first.
+- `Func<T, K>` **`keySelector`**: The mutator function that extracts the compared key from objects.
+
+Returns: A sequence that contains the set difference of the elements (by keys) of the two sequences.
+
+## `IEnumerable<T>.ExceptDualBy<T, K>(IEnumerable<T>, Func<T, K>, IEqualityComparer<K>)`
+`IEnumerable<T>` - Returns a sequence with all of the members of the original, except for those present (when both sequences are compared with a mutual mutator) in the second.
+
+Type parameters:
+- `T` - The type of items in the original and second enumerables.
+- `K` - The type of keys by which items are compared.
+
+Parameters:
+- `this IEnumerable<T>` **`first`**: The original sequence from which to exclude items.
+- `IEnumerable<T>` **`second`**: The sequence containing items to remove from the first.
+- `Func<T, K>` **`keySelector`**: The mutator function that extracts the compared key from objects.
+- `IEqualityComparer<K>` **`comparer`**: The comparer for equality for the keys.
+
+Returns: A sequence that contains the set difference of the elements (by keys) of the two sequences.
+
+## `IEnumerable<T>.ExceptInstances(IEnumerable<T>)`
+`IEnumerable<T>` - Returns a sequence with all of the original members, except that *one instance* of an item is removed from the original sequence for each *instance* that appears in the second.
+
+Type parameters:
+- `T` - The type of items in the enumerables.
+
+Parameters:
+- `this IEnumerable<T>` **`first`**: The original sequence from which to exclude instances.
+- `IEnumerable<T>` **`second`**: The sequence containing instances to remove from the original.
+
+Returns: A sequence contianing the original items, less instances found in the second.
+
+Remarks: The original sequence's order is preserved. Instances found in both are removed from the front of the first.
+
+Example:
+
+```cs
+char[] OriginalSequence = ['a', 'r', 'b', 'i', 't', 'r', 'a', 'r', 'y'];
+char[] ExcludedSequence = ['t', 'r', 'a', 'i', 'n', 'i', 'e', 'r', 's'];
+OriginalSequence.ExceptInstances(ExcludedSequences).Do(c => Console.Write(c)); // outputs "bary"
+```
+
 ## `IEnumerable<char>.FormString()`
 `string` - Creates a string out of a char enumerable.
 
@@ -176,6 +227,57 @@ Parameters:
 - `this IEnumerable<char>` **`chars`**: The original char enumerable.
 
 Returns: The string formed by the enumerated chars.
+
+## `IEnumerable<T>.IntersectDualBy<T, K>(IEnumerable<T>, Func<T, K>)`
+`IEnumerable<T>` - Returns a sequence with all members of the original that are also present (when both sequences are compared with a mutual mutator) in the second.
+
+Type parameters:
+- `T` - The type of items in the original and second enumerables.
+- `K` - The type of keys by which items are compared.
+
+Parameters:
+- `this IEnumerable<T>` **`first`**: The original sequence from which to exclude items.
+- `IEnumerable<T>` **`second`**: The sequence containing items to not remove from the first.
+- `Func<T, K>` **`keySelector`**: The mutator function that extracts the compared key from objects.
+
+Returns: A sequence that contains the set intersection of the elements (by keys) of the two sequences.
+
+## `IEnumerable<T>.IntersectDualBy<T, K>(IEnumerable<T>, Func<T, K>, IEqualityComparer<K>)`
+`IEnumerable<T>` - Returns a sequence with all members of the original that are also present (when both sequences are compared with a mutual mutator) in the second.
+
+Type parameters:
+- `T` - The type of items in the original and second enumerables.
+- `K` - The type of keys by which items are compared.
+
+Parameters:
+- `this IEnumerable<T>` **`first`**: The original sequence from which to exclude items.
+- `IEnumerable<T>` **`second`**: The sequence containing items to not remove from the first.
+- `Func<T, K>` **`keySelector`**: The mutator function that extracts the compared key from objects.
+- `IEqualityComparer<K>` **`comparer`**: The comparer for equality for the keys.
+
+Returns: A sequence that contains the set intersection of the elements (by keys) of the two sequences.
+
+## `IEnumerable<T>.IntersectInstances(IEnumerable<T>)`
+`IEnumerable<T>` - Returns a sequence containing one item for every time it appears in both sequences.
+
+Type parameters:
+- `T` - The type of items in the enumerables.
+
+Parameters:
+- `this IEnumerable<T>` **`first`**: The original sequence from which to exclude instances.
+- `IEnumerable<T>` **`second`**: The sequence containing instances to remove from the original.
+
+Returns: A sequence contianing the original items, less instances found in the second.
+
+Remarks: The original sequence's order is preserved. Returned instances of items are the first instances in the original sequence.
+
+Example:
+
+```cs
+char[] OriginalSequence = ['a', 'r', 'b', 'i', 't', 'r', 'a', 'r', 'y'];
+char[] ExcludedSequence = ['t', 'r', 'a', 'i', 'n', 'i', 'e', 'r', 's'];
+OriginalSequence.IntersectInstances(ExcludedSequences).Do(c => Console.Write(c)); // outputs "aritr"
+```
 
 ## `IEnumerable<T>.MinMany<T>()`
 `IEnumerable<T>` - Enumerates over all items in `list` that have the minimum value.
@@ -188,6 +290,8 @@ Parameters:
 
 Returns: An enumerable over all objects from `list` that have the minimum value.
 
+Issues: Prior to v0.11.0, this function returned `null`, rather than an empty enumerable, for an empty input.
+
 ## `IEnumerable<T>.MinMany<T>(IComparer<T>)`
 `IEnumerable<T>` - Enumerates over all items in `list` that have the minimum value.
 
@@ -199,6 +303,8 @@ Parameters:
 - `IComparer<T>` **`cmp`**: A comparer for the objects.
 
 Returns: An enumerable over all objects from `list` that have the minimum value.
+
+Issues: Prior to v0.11.0, this function returned `null`, rather than an empty enumerable, for an empty input.
 
 ## `IEnumerable<TSource>.MinManyBy<TSource, TResult>(Func<TSource, TResult>)`
 `IEnumerable<TSource>` - Enumerates over all items in `list` that map to the minimum value.
@@ -214,6 +320,8 @@ Parameters:
   - Returns `TResult`: The value to compare.
 
 Returns: An enumerable over all objects from `list` that map to the minimum value.
+
+Issues: Prior to v0.11.0, this function returned `null`, rather than an empty enumerable, for an empty input.
 
 ## `IEnumerable<TSource>.MinManyBy<TSource, TResult>(Func<TSource, TResult>, IComparer<TResult>)`
 `IEnumerable<TSource>` - Enumerates over all items in `list` that map to the minimum value.
@@ -231,6 +339,8 @@ Parameters:
 
 Returns: An enumerable over all objects from `list` that map to the minimum value.
 
+Issues: Prior to v0.11.0, this function returned `null`, rather than an empty enumerable, for an empty input.
+
 ## `IEnumerable<T>.MaxMany<T>()`
 `IEnumerable<T>` - Enumerates over all items in `list` that have the maximum value.
 
@@ -241,6 +351,8 @@ Parameters:
 - `this IEnumerable<T>` **`list`**: The original enumerable.
 
 Returns: An enumerable over all objects from `list` that have the maximum value.
+
+Issues: Prior to v0.11.0, this function returned `null`, rather than an empty enumerable, for an empty input.
 
 ## `IEnumerable<T>.MaxMany<T>(IComparer<T>)`
 `IEnumerable<T>` - Enumerates over all items in `list` that have the maximum value.
@@ -253,6 +365,8 @@ Parameters:
 - `IComparer<T>` **`cmp`**: A comparer for the objects.
 
 Returns: An enumerable over all objects from `list` that have the maximum value.
+
+Issues: Prior to v0.11.0, this function returned `null`, rather than an empty enumerable, for an empty input.
 
 ## `IEnumerable<TSource>.MaxManyBy<TSource, TResult>(Func<TSource, TResult>)`
 `IEnumerable<TSource>` - Enumerates over all items in `list` that map to the maximum value.
@@ -269,6 +383,8 @@ Parameters:
 
 Returns: An enumerable over all objects from `list` that map to the maximum value.
 
+Issues: Prior to v0.11.0, this function returned `null`, rather than an empty enumerable, for an empty input.
+
 ## `IEnumerable<TSource>.MaxManyBy<TSource, TResult>(Func<TSource, TResult>, IComparer<TResult>)`
 `IEnumerable<TSource>` - Enumerates over all items in `list` that map to the maximum value.
 
@@ -284,6 +400,25 @@ Parameters:
 - `IComparer<TResult>` **`cmp`**: A comparer for the values.
 
 Returns: An enumerable over all objects from `list` that map to the maximum value.
+
+Issues: Prior to v0.11.0, this function returned `null`, rather than an empty enumerable, for an empty input.
+
+## `IEnumerable<T>.Pairs()`
+`IEnumerable<(T, T)>` - Returns all pairs of consecutive items in the sequence.
+
+Type parameters:
+- `T` - The type of objects in the enumerable.
+
+Parameters:
+- `this IEnumerable<T>` **`sequence`**: The sequence.
+
+Returns: As described above.
+
+Remarks: Unlike `seq.Chunk(2)`, this function returns:
+- A sequence of `(T, T)`, rather than `T[]`
+- Pairs where the first element has an even index, in addition to those with an odd index
+- An empty enumerable, for a `seq` of length 1
+- No final object by itself, for a `seq` of odd length
 
 ## `IEnumerable<T>.Permutations<T>(int)`
 `IEnumerable<IEnumerable<T>>` - Exhaustively returns an enumeration over all possible orderings of the original enumeration.
@@ -380,6 +515,45 @@ Parameters:
 - `this IEnumerable<T>` **`seq`** - The sequence to repeat.
 
 Returns: An enumerable over **infinite output**, repeating the original sequence indefinitely.
+
+## `IEnumerable<T>.SJoin(string)`
+`string` - Returns a string representation of the sequence, concatenated by copies of another string.
+
+Type parameters:
+- `T` - The type of objects in the enumerable.
+
+Parameters:
+- `this IEnumerable<T>` **`objects`** - The sequence to string.
+- `string` **`with`** - The separator.
+
+Returns: As described above.
+
+Note: Calling `sequence.SJoin(separator)` is equivalent to calling `string.Join(separator, sequence)`.
+
+## `IEnumerable<T>.SymmetricExcept(IEnumerable<T>)`
+`IEnumerable<T>` - Returns a sequence that only contains elements in *exactly one* of the input sequences.
+
+Type parameters:
+- `T` - The type of objects in the enumerable.
+
+Parameters:
+- `this IEnumerable<T>` **`first`** - The original sequence.
+- `IEnumerable<T>` **`second`** - The sequence to compare with.
+
+Returns: As described above.
+
+## `IEnumerable<T>.SymmetricExcept(IEnumerable<T>, IEqualityComparer<T>)`
+`IEnumerable<T>` - Returns a sequence that only contains elements in *exactly one* of the input sequences.
+
+Type parameters:
+- `T` - The type of objects in the enumerable.
+
+Parameters:
+- `this IEnumerable<T>` **`first`** - The original sequence.
+- `IEnumerable<T>` **`second`** - The sequence to compare with.
+- `IEqualityComparer<T>` **`comparer`** - A comparer comparing elements for equality.
+
+Returns: As described above.
 
 ## `IEnumerable<TSource>.WhereOrdered<T>(bool, bool)`
 `IEnumerable<T>` - Enumerates over objects in `sequence` that are larger than the previously yielded objects.
