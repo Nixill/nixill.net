@@ -1071,6 +1071,25 @@
       to replenish those moves.
     more:
 
+- name: Snakeybus
+  platform: PC
+  firstStream: 2020-01-25
+  lastStream: 2020-01-25
+  continuous: true
+  rating: 1
+  purchase:
+    steam: 1012560
+    nin10:
+      link: snakeybus-switch
+    xbox:
+      link: snakeybus/9p778mq2jpkc
+    ps: PS4/PS5
+  review:
+    plus: |
+      
+    minus:
+    more:
+
 # - name:
 #   platform:
 #   firstStream:
