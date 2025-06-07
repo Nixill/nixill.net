@@ -17,7 +17,7 @@ It's my first mod, dating back to when Synchrony was just a fan-made unofficial 
 
 - [More info](./Switcheroo)
 - [Subscribe on mod.io](https://mod.io/g/crypt/m/switcheroo)
-- [Source code and bug tracker](https://github.com/StevenH237/Synchrony-Switcheroo)
+- [Source code and bug tracker](https://github.com/Nixill/Synchrony-Switcheroo)
 
 ## Lola
 Lola is a character who can't directly pick up items, but has to open chests and leave the items sitting on the floor to receive them.
@@ -25,9 +25,9 @@ Lola is a character who can't directly pick up items, but has to open chests and
 This is my most complete mod, a fun character idea I'd had when I thought "What if we had a character forced to play low%?".
 
 <!-- - [More info](./Lola) -->
-- More info: Coming soon
+- [More info](./Lola)
 - [Subscribe on mod.io](https://mod.io/g/crypt/m/lola)
-- [Source code and bug tracker](https://github.com/StevenH237/Synchrony-Lola)
+- [Source code and bug tracker](https://github.com/Nixill/Synchrony-Lola)
 
 
 # Library mods
@@ -39,7 +39,7 @@ NixLib is simply a library of functions and minor components that I don't want t
 <!-- - [More info](./NixLib) -->
 - More info: Coming soon
 - [View on mod.io](https://mod.io/g/crypt/m/nixlib)
-- [Source code and bug tracker](https://github.com/StevenH237/Synchrony-NixLib)
+- [Source code and bug tracker](https://github.com/Nixill/Synchrony-NixLib)
 
 ## Power Settings
 Power Settings is a library mod that overhauls Synchrony's own Settings API to add additional features and settings types.
@@ -47,4 +47,4 @@ Power Settings is a library mod that overhauls Synchrony's own Settings API to a
 <!-- - [More info](./PowerSettings) -->
 - More info: Coming soon
 - [View on mod.io](https://mod.io/g/crypt/m/powersettings)
-- [Source code and bug tracker](https://github.com/StevenH237/Synchrony-PowerSettings)
+- [Source code and bug tracker](https://github.com/Nixill/Synchrony-PowerSettings)

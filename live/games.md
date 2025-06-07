@@ -7,7 +7,7 @@ The following is ~~a comprehensive~~ an incomplete list of games I've played on 
 
 **Disclaimers:** Links to the Humble Store are affiliate links. I, and a local charity of my choice, will receive a cut for any purchases made through those links. All other sites are non-affiliate links. For the PlayStation store, links have been omitted due to being region-locked, but you can look things up on your local store. Games are added to this list when I remember to add them without consulting any developers of those games. Links are accurate as of the time I add the game to the list, and they may or may not be updated further. There may also be disclosures specific to individual games, such as those received for free.
 
-**Corrections:** If information about a game I've included is incorrect (for example, store links), or if you've seen me play a game and it's not on this list, the best way to get it fixed would be to [submit a GitHub issue](https://github.com/StevenH237/nixill.net/).
+**Corrections:** If information about a game I've included is incorrect (for example, store links), or if you've seen me play a game and it's not on this list, the best way to get it fixed would be to [submit a GitHub issue](https://github.com/Nixill/nixill.net/).
 
 **Ratings:** Are on a scale of - (didn't like), 0 (indifferent), or + (liked), where games I *really* like or dislike can get an extra + or -. The reviews are pretty much just my opinions, and I'm not sure to what degree I'd call them objective or unbiased.
 

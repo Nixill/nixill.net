@@ -2,7 +2,7 @@
 layout: page
 title: Switcheroo
 permalink: /mods/Switcheroo/
-github: https://github.com/StevenH237/Synchrony-Switcheroo/
+github: https://github.com/Nixill/Synchrony-Switcheroo/
 download: https://mod.io/g/crypt/m/switcheroo
 downloadTitle: "Switcheroo:"
 ---

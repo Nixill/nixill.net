@@ -7,7 +7,9 @@ permalink: /live
 You can find me on Twitch at [NixillShadowFox](https://l.nixill.net/ttv)!
 
 # Schedule
-This schedule is subject to change without notice.
+Currently, there is no set schedule.
+
+<!-- This schedule is subject to change without notice.
 
 <span id="time-notice">💡 The days and times below are in US Eastern time. If you load this page with JavaScript enabled, it will attempt to detect your time zone.</span>
 
@@ -73,7 +75,7 @@ All streams run **<span id="startTime">6:00 PM</span>** through **<span id="endT
       ", and then to " + changes[1].toLocaleString(DateTime.TIME_SIMPLE) +
       " on " + changes[1].toLocaleString({day: "numeric", month: "long"}) + ".";
   }
-</script>
+</script> -->
 
 # Chat rules
 Please adhere to the following rules when chatting:
