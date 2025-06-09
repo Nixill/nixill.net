@@ -94,3 +94,6 @@ For successfully finishing a singleplayer run under [Classic Rules](options.md#c
 For successfully finishing a singleplayer run under either preset, **without rejecting any revealed items**, you'll earn the achievement "Lola the Adaptible".
 
 Note that Phasing Mode and Dance Pad Mode must be disabled to earn these achievements. Before version 1.4.0, No Beat mode must also be disabled.
+
+# Credits
+I did the code for this, with a little help from the #mod-help channel in the Synchrony Discord. [WinnerBit](https://bsky.app/profile/twistbit.cc) did the art!
