@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Changelogs - Lola
-permalink: /mods/Lola/changelogs
+permalink: /nd-mods/Lola/changelogs
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola
 downloadTitle: "Lola:"
@@ -50,7 +50,7 @@ The following changes have been made to rule-checking (for best times and IGA) s
 ## 1.3.1
 *(Version 1.3.1 was released December 3rd, 2024.)*
 
-**This is the version that the 39th Weekly Challenge uses.**
+**This is the latest approved version on consoles, and the version that the 39th Weekly Challenge uses.**
 
 Added a small guide, accessible from either the pause menu or the mod's options menu. The pause menu entry can also be disabled in the mod's options menu.
 

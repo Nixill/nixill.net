@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modules - Lola
-permalink: /mods/Lola/code/modules/
+permalink: /nd-mods/Lola/code/modules/
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola
 downloadTitle: "Lola:"

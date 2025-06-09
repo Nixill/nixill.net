@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hints - Lola
-permalink: /mods/Lola/hints
+permalink: /nd-mods/Lola/hints
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola
 downloadTitle: "Lola:"

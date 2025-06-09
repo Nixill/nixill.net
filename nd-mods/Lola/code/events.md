@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Code - Lola
-permalink: /mods/Lola/code/events
+permalink: /nd-mods/Lola/code/events
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola
 downloadTitle: "Lola:"

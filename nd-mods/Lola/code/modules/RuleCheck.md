@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RuleCheck - Lola
-permalink: /mods/Lola/code/modules/RuleCheck
+permalink: /nd-mods/Lola/code/modules/RuleCheck
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola
 downloadTitle: "Lola:"

@@ -3,13 +3,17 @@ layout: page
 title: Lola
 description: "Character for CotND that must pick up items indirectly"
 image: "/img/page/mods/Lola/LolaIcon.png"
-permalink: /mods/Lola/
+permalink: /nd-mods/Lola/
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola
 downloadTitle: "Lola:"
 ---
 
 Lola is a character who is bound by a curse to not directly take actions that would break Low Percent (picking up items or using shrines). They must instead reveal the items, then leave them on the floor, and take the stairs to receive them.
+
+The pages on this site are updated for version **1.4.0.1** of Lola. As of this writing, **1.3.1** is the latest console-approved version.
+
+*(Mod authors: Take a look at [this page](code/index.md) for modules and other code information!)*
 
 # How to play
 The following assumes you're playing with Default Rules. There are also [Classic Rules](options.md#classic-rules), or [Options](options.md) to customize your experience.
@@ -76,7 +80,7 @@ Lola offers simple tracking of your best times in various modes, more specifical
   - Mystery Mode (use the Mystery Mode extra mode)
 - ... and played on...
   - Regular rhythm
-  - No Beat Mode
+  - No Beat Mode (v1.4.0+)
 
 These times can be viewed under Options → Mod Options → Lola → Best Times (Lola). You can also disable saving them.
 

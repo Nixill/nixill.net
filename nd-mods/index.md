@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Mods for NecroDancer
-permalink: /mods/
+description: I make mods for Crypt of the NecroDancer!
+permalink: /nd-mods/
 ---
 
 I make mods for [Crypt of the NecroDancer](https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/)! On this page you can see some of what I've done.
@@ -9,6 +10,19 @@ I make mods for [Crypt of the NecroDancer](https://store.steampowered.com/app/24
 
 # Content mods
 These mods add new gameplay content or mechanics! Most players will probably be interested in these.
+
+## Lola
+Lola is a character who can't directly pick up items, but has to open chests and leave the items sitting on the floor to receive them.
+
+This is my most complete mod, a fun character idea I'd had when I thought "What if we had a character forced to play low%?".
+
+As of the latest website update, the latest mod version on PC is **1.4.0.1**, and the latest mod version on console is **1.3.1**.
+
+Version **1.3.1** of this mod was featured in Week 39 of the Weekly Challenge.
+
+- [More info](Lola/index.md)
+- [Subscribe on mod.io](https://mod.io/g/crypt/m/lola)
+- [Source code and bug tracker](https://github.com/Nixill/Synchrony-Lola)
 
 ## Switcheroo
 Switcheroo randomly changes every item of yours every floor.
@@ -18,16 +32,6 @@ It's my first mod, dating back to when Synchrony was just a fan-made unofficial 
 - [More info](./Switcheroo)
 - [Subscribe on mod.io](https://mod.io/g/crypt/m/switcheroo)
 - [Source code and bug tracker](https://github.com/Nixill/Synchrony-Switcheroo)
-
-## Lola
-Lola is a character who can't directly pick up items, but has to open chests and leave the items sitting on the floor to receive them.
-
-This is my most complete mod, a fun character idea I'd had when I thought "What if we had a character forced to play low%?".
-
-<!-- - [More info](./Lola) -->
-- [More info](./Lola)
-- [Subscribe on mod.io](https://mod.io/g/crypt/m/lola)
-- [Source code and bug tracker](https://github.com/Nixill/Synchrony-Lola)
 
 
 # Library mods

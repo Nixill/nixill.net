@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Options - Lola
-permalink: /mods/Lola/options
+permalink: /nd-mods/Lola/options
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola
 downloadTitle: "Lola:"
@@ -52,9 +52,13 @@ If this setting is turned on, Lola will receive the rewards from activating thos
 If this setting is turned on, Lola will receive items spawned by Conjurer and Transmogrifier transaction tiles, or the Pawnbroker's Trade Offers or Special Offers, as part of their normal stair item collection. *(Default Rules: On. Classic Rules: Off.)*
 
 ### Bounce on attempted violation
+*(Added in 1.4.0. Pre-1.4.0 gameplay treats this option as false.)*
+
 If this setting is turned on, moves that would cause Lola to attempt to pick up an item or use a shrine are ignored, rather than killing them. It will instead act like the player idled for a turn, usually dropping groove chain. *(Defaults to Off in both rulesets.)*
 
 ### Automatically claim Package interactions
+*(Added in 1.4.0. Pre-1.4.0 gameplay treats this option as false.)*
+
 If this setting is turned on, a package summoned by Lola with Package Spell and then immediately opened by environmental damage will be claimed by the Lola that summoned it. If off, the contents will be unclaimed. *(Default Rules: On. Classic Rules: Off [no effect anyway].)*
 
 ## Multiplayer settings

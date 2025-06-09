@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ShownItems - Lola
-permalink: /mods/Lola/code/modules/ShownItems
+permalink: /nd-mods/Lola/code/modules/ShownItems
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola
 downloadTitle: "Lola:"

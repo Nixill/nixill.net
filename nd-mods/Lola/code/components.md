@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Components - Lola
-permalink: /mods/Lola/code/components
+permalink: /nd-mods/Lola/code/components
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola
 downloadTitle: "Lola:"
