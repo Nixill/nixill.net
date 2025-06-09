@@ -48,7 +48,9 @@ The following changes have been made to rule-checking (for best times and IGA) s
 
 # Version 1.3:
 ## 1.3.1
-*(Version 1.3.1 was released December 3rd, 2024.)* **This is the version that Week 39 uses.**
+*(Version 1.3.1 was released December 3rd, 2024.)*
+
+**This is the version that the 39th Weekly Challenge uses.**
 
 Added a small guide, accessible from either the pause menu or the mod's options menu. The pause menu entry can also be disabled in the mod's options menu.
 
