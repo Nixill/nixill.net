@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Lola
+description: "Character for CotND that must pick up items indirectly"
+image: "/img/page/mods/Lola/LolaIcon.png"
 permalink: /mods/Lola/
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola

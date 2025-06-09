@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Code - Lola
-description: "MOD: Character that must pick up items indirectly"
 permalink: /mods/Lola/code/
 github: https://github.com/Nixill/Synchrony-Lola/
 download: https://mod.io/g/crypt/m/lola
