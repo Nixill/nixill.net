@@ -33,6 +33,20 @@ As of the latest website update, the latest mod version on PC is **1.0.0**. It i
 - [Subscribe on mod.io](https://mod.io/g/crypt/m/howbatty)
 - [Source code and bug tracker](https://github.com/Nixill/Synchrony-HowBatty)
 
+## LobbyJukebox
+LobbyJukebox is a mod that adds a jukebox to the lobby to play the game's music.
+
+This one, I made because I wanted to have background music for mod-coding streams that isn't just "the game's lobby music on eternal loop", but that automatically switches to game music when I start playing to test.
+
+It has also been used to provide background music to competitive necrodancer events.
+
+⚠️ Due to issues with the mod.io website and cloudflare, I'm currently unable to upload new releases in-game. For the **1.0.3** release, use the Download from GitHub link instead. The current mod.io version is **1.0.1**. There is no version approved for consoles.
+
+- [More info](LobbyJukebox/index.md)
+- [Download from GitHub](https://github.com/Nixill/Synchrony-LobbyJukebox/releases)
+- [Subscribe on mod.io](https://mod.io/g/crypt/m/lobbyjukebox) (outdated version!)
+- [Source code and bug tracker](https://github.com/Nixill/Synchrony-LobbyJukebox)
+
 ## Lola
 Lola is a character who can't directly pick up items, but has to open chests and leave the items sitting on the floor to receive them.
 
