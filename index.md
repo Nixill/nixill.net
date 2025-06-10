@@ -9,14 +9,14 @@ permalink: /
 
 Hey, I'm Nixill, and welcome to my website. This is a small gathering space for stuff I'm doing or working on.
 
-More about me and links to my places can be found [here](/about)!
+More about me and links to my places can be found [here](about.md)!
 
 # Code
 
-[Mods for NecroDancer](/mods)
+[Mods for NecroDancer](nd-mods/index.md)
 : I'm coding some mods for Crypt of the NecroDancer!
 
-[C# Code](/csharp)
+[C# Code](csharp/index.md)
 : I also write a bit in C#!
 
 # Streaming

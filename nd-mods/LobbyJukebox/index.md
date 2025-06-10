@@ -7,7 +7,7 @@ permalink: /nd-mods/LobbyJukebox/
 github: https://github.com/Nixill/Synchrony-LobbyJukebox/
 download: https://github.com/Nixill/Synchrony-LobbyJukebox/releases
 downloadTitle: "Lobby Jukebox:"
-imgs: "img/page/mods/LobbyJukebox/"
+imgs: "/img/page/mods/LobbyJukebox/"
 ---
 
 LobbyJukebox is a mod that plays the game's music in the lobby.
