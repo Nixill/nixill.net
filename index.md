@@ -11,9 +11,6 @@ Hey, I'm Nixill, and welcome to my website. This is a small gathering space for 
 
 More about me and links to my places can be found [here](/about)!
 
-# Streaming
-I have a [Twitch channel](https://l.nixill.net/ttv)! More info about what you can expect to find there, including schedule, can be found [here](/live).
-
 # Code
 
 [Mods for NecroDancer](/mods)
@@ -21,5 +18,8 @@ I have a [Twitch channel](https://l.nixill.net/ttv)! More info about what you ca
 
 [C# Code](/csharp)
 : I also write a bit in C#!
+
+# Streaming
+I have a [Twitch channel](https://l.nixill.net/ttv)! More info about what you can expect to find there, including (lack of) schedule, can be found [here](/live).
 
 # Posts
