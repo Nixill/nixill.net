@@ -52,7 +52,7 @@ Lola is a character who can't directly pick up items, but has to open chests and
 
 This is my most complete mod, a fun character idea I'd had when I thought "What if we had a character forced to play low%?".
 
-As of the latest website update, the latest mod version on PC is **1.4.0.1**, and the latest mod version on consoles is **1.3.1**.
+As of the latest website update, the latest mod version on PC is **1.4.1**, and the latest mod version on consoles is **1.3.1**.
 
 [WinnerBit](https://bsky.app/profile/twistbit.cc) did the artwork for this mod!
 

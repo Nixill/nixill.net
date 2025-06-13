@@ -10,6 +10,14 @@ downloadTitle: "Lola:"
 Changelogs are listed in order of most to least recent versions.
 
 # Version 1.4:
+## 1.4.1
+*(Version 1.4.1 was released June 13, 2025.)*
+
+- Fixed some typos in previous changelogs.
+- Added "Lute Mode" and "Easy Mode" presets.
+- Made the "Guide to Lola" menu option only appear if Lola is the active character. (If there is no active character, it appears if any Lola is anywhere on the floor.)
+- Added the "Show guide in pause menu" option to the guide itself.
+
 ## 1.4.0.1
 *(Version 1.4.0.1 was released June 4, 2025.)*
 

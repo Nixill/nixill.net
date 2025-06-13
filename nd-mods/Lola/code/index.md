@@ -7,7 +7,7 @@ download: https://mod.io/g/crypt/m/lola
 downloadTitle: "Lola:"
 ---
 
-If you're coding a mod around Lola, it may be helpful to know about the modules, components, and settings that it provides:
+Explanation of modules, etc. in Lola:
 
 # Modules
 - [`Lola.event.Render`](modules/Render.md)
