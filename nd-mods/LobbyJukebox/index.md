@@ -1,18 +1,12 @@
 ---
 layout: page
 title: Lobby Jukebox
-description: "Mod for CotND that plays the game's music in the lobby"
-image: "/img/page/mods/LobbyJukebox/LobbyJukeboxIcon.png"
 permalink: /nd-mods/LobbyJukebox/
-github: https://github.com/Nixill/Synchrony-LobbyJukebox/
-download: https://github.com/Nixill/Synchrony-LobbyJukebox/releases
-downloadTitle: "Lobby Jukebox:"
-imgs: "/img/page/mods/LobbyJukebox/"
 ---
 
 LobbyJukebox is a mod that plays the game's music in the lobby.
 
-These pages are updated for version **1.0.3** of Lobby Jukebox, which is currently only available on GitHub. The latest version [on mod.io](https://mod.io/g/crypt/m/lobbyjukebox) is **1.0.1** for PC, and there is no approved version on consoles.
+These pages are updated for version **1.0.3** of Lobby Jukebox. There is no approved version on consoles.
 
 To use it, simply load the mod and then reload the lobby. The easiest way to reload the lobby is to use the Quick Restart hotkey, but if that's not bound, you can also enter a monster training and return to the lobby there.
 

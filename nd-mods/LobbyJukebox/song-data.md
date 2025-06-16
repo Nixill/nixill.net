@@ -2,12 +2,7 @@
 layout: page
 title: Song Data - Lobby Jukebox
 description: "Contribute song data to Lobby Jukebox"
-image: "/img/page/mods/LobbyJukebox/LobbyJukeboxIcon.png"
 permalink: /nd-mods/LobbyJukebox/song-data
-github: https://github.com/Nixill/Synchrony-LobbyJukebox/
-download: https://github.com/Nixill/Synchrony-LobbyJukebox/releases
-downloadTitle: "Lobby Jukebox:"
-imgs: "img/page/mods/LobbyJukebox/"
 ---
 
 As of now, the only way for LobbyJukebox to properly support a mod's song titles and artists is to contribute the data directly. Support for `GameSong.Type` enum data, or for mods and resource packs to define their own music title parameters locally, is planned for a future version!
@@ -73,7 +68,7 @@ return {
 ```
 
 ## The Variants module
-Mod music is assumed to just have a single variant that plays across any artist. If your music doesn't violate this assumption, then you don't need to touch the Variants module. Otherwise, you may need to modify the following functions.
+Mod music is assumed to just have a single variant that plays across any artist, with no shopkeeper tracks.. If your music doesn't violate this assumption, then you don't need to touch the Variants module. Otherwise, you may need to modify the following functions.
 
 It's worth noting that here the `track` parameter of the methods isn't the same as a "track key" above. Instead, it's a table that contains the following values:
 

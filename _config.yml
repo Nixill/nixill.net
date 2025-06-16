@@ -28,7 +28,7 @@ github_username: Nixill
 timezone: America/Detroit
 
 # Build settings
-remote_theme: Nixill/midnight@0f2c41c3b62e0a8fb500101d3ea52abb84d46c24
+remote_theme: Nixill/midnight@f3f120cb745c246b32bdd74ff698e329be5186c7
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
@@ -53,3 +53,15 @@ host: 0.0.0.0
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  -
+    scope:
+      path: "/nd-mods/LobbyJukebox/"
+    values:
+      description: "Mod for CotND that plays the game's music in the lobby"
+      image: "/img/page/mods/LobbyJukebox/LobbyJukeboxIcon.png"
+      github: https://github.com/Nixill/Synchrony-LobbyJukebox/
+      download: https://mod.io/g/crypt/m/lobbyjukebox
+      downloadTitle: "Lobby Jukebox:"
+      imgs: "/img/page/mods/LobbyJukebox/"
