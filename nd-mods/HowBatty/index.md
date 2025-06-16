@@ -20,21 +20,3 @@ This page is updated for version **1.0.0** of HTF. As of this writing, there is 
 
 # Options
 There is one option in the Custom Rules. The "Remove luck" option can be turned off to make a Lucky Charm basically break the game (making you immune to any enemy that has another place it can go).
-
-# For mod authors
-## Module `HowBatty.HowBatty`
-This module contains nothing. It only exists so that you can use `pcall(require, "HowBatty.HowBatty")` to detect if the mod is loaded.
-
-## Event handlers
-(Event handlers prefixed with `HowBatty_`)
-
-| Event                    | Handler name       | Filter | Order        | Sequence | Description                        |
-| :----------------------- | :----------------- | :----- | :----------- | :------- | :--------------------------------- |
-| `entitySchemaLoadEntity` | `replaceAIWithBat` |        | `migrations` | 1        | Replaces all enemy AI with bat AI. |
-
-## Shared settings
-(Node prefixed with `mod.HowBatty.`)
-
-| Node         | Name        | Type    | Default value | Module                       |
-| :----------- | :---------- | :------ | :------------ | :--------------------------- |
-| `removeLuck` | Remove luck | Boolean | `true`        | `HowBatty.scripts.ReplaceAI` |

@@ -8,8 +8,6 @@ Lola is a character who is bound by a curse to not directly take actions that wo
 
 The pages on this site are updated for version **1.4.1** of Lola. As of this writing, **1.3.1** is the latest console-approved version. You can view the changelogs [here](changelogs.md).
 
-*(Mod authors: Take a look at [this page](code/index.md) for modules and other code information!)*
-
 # How to play
 The following assumes you're playing with Default Rules. There are also [Classic Rules](options.md#classic-rules), or [Options](options.md) to customize your experience.
 

@@ -1,9 +1,0 @@
----
-layout: page
-title: Lola - Lola
-permalink: /nd-mods/Lola/code/modules/Lola
----
-
-This module exists starting with Lola 1.4.1, but contains no functions. It is intended for checking if the mod is loaded, as follows:
-
-`local hasLola = pcall(require, "Lola.Lola")`

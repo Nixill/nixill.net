@@ -49,6 +49,5 @@ If you have advanced settings enabled, you will also see:
 # Mod music works too!
 If you have a mod such as [Symphony of Sorcery](https://mod.io/g/crypt/m/magezone) or [Devil's Dreaded Darkness](https://mod.io/g/crypt/m/godlightddd) enabled, zone and boss music from that mod can be played in the Jukebox.
 
-# How the code works
-- If you want to know more about the various functions the mod has, click [here](code/index.md).
-- If you want to contribute song data to the mod, click [here](song-data.md).
+# Contribute!
+For more information on contributing song info to the mod, click [here](song-data.md).
