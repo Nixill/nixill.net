@@ -2,9 +2,6 @@
 layout: page
 title: Settings - Lola
 permalink: /nd-mods/Lola/code/modules/Settings
-github: https://github.com/Nixill/Synchrony-Lola/
-download: https://mod.io/g/crypt/m/lola
-downloadTitle: "Lola:"
 ---
 
 `local LoSettings = require "Lola.Settings"`

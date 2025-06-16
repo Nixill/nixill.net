@@ -2,9 +2,6 @@
 layout: page
 title: Settings - Lola
 permalink: /nd-mods/Lola/code/settings
-github: https://github.com/Nixill/Synchrony-Lola/
-download: https://mod.io/g/crypt/m/lola
-downloadTitle: "Lola:"
 ---
 
 Lola contains the following (non-restricted) settings nodes (all nodes prefixed by `mod.Lola.`):

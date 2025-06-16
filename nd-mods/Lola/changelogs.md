@@ -2,9 +2,6 @@
 layout: page
 title: Changelogs - Lola
 permalink: /nd-mods/Lola/changelogs
-github: https://github.com/Nixill/Synchrony-Lola/
-download: https://mod.io/g/crypt/m/lola
-downloadTitle: "Lola:"
 ---
 
 Changelogs are listed in order of most to least recent versions.

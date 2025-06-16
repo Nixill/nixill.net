@@ -1,12 +1,7 @@
 ---
 layout: page
 title: Lola
-description: "Character for CotND that must pick up items indirectly"
-image: "/img/page/mods/Lola/LolaIcon.png"
 permalink: /nd-mods/Lola/
-github: https://github.com/Nixill/Synchrony-Lola/
-download: https://mod.io/g/crypt/m/lola
-downloadTitle: "Lola:"
 ---
 
 Lola is a character who is bound by a curse to not directly take actions that would break Low Percent (picking up items or using shrines). They must instead reveal the items, then leave them on the floor, and take the stairs to receive them.

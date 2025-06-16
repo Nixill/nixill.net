@@ -2,9 +2,6 @@
 layout: page
 title: Options - Lola
 permalink: /nd-mods/Lola/options
-github: https://github.com/Nixill/Synchrony-Lola/
-download: https://mod.io/g/crypt/m/lola
-downloadTitle: "Lola:"
 ---
 
 The following options are available to players:

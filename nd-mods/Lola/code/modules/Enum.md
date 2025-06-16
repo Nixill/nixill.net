@@ -2,9 +2,6 @@
 layout: page
 title: Enum - Lola
 permalink: /nd-mods/Lola/code/modules/Enum
-github: https://github.com/Nixill/Synchrony-Lola/
-download: https://mod.io/g/crypt/m/lola
-downloadTitle: "Lola:"
 ---
 
 `local LoEnum = require "Lola.Enum"`

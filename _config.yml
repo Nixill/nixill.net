@@ -57,6 +57,17 @@ host: 0.0.0.0
 defaults:
   -
     scope:
+      path: ""
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  -
+    scope:
       path: "nd-mods/LobbyJukebox"
     values:
       description: "Mod for CotND that plays the game's music in the lobby"
@@ -65,3 +76,13 @@ defaults:
       download: https://mod.io/g/crypt/m/lobbyjukebox
       downloadTitle: "Lobby Jukebox:"
       imgs: "/img/page/mods/LobbyJukebox/"
+  -
+    scope:
+      path: "nd-mods/Lola"
+    values:
+      description: "Character for CotND that must pick up items indirectly"
+      image: "/img/page/mods/Lola/LolaIcon.png"
+      github: https://github.com/Nixill/Synchrony-Lola/
+      download: https://mod.io/g/crypt/m/lola
+      downloadTitle: "Lola:"
+      imgs: "/img/page/mods/Lola/"

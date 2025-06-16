@@ -2,9 +2,6 @@
 layout: page
 title: ItemHolders - Lola
 permalink: /nd-mods/Lola/code/modules/ItemHolders
-github: https://github.com/Nixill/Synchrony-Lola/
-download: https://mod.io/g/crypt/m/lola
-downloadTitle: "Lola:"
 ---
 
 `local ItemHolders = require "Lola.mod.ItemHolders"`

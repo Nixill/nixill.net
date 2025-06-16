@@ -2,9 +2,6 @@
 layout: page
 title: Hints - Lola
 permalink: /nd-mods/Lola/hints
-github: https://github.com/Nixill/Synchrony-Lola/
-download: https://mod.io/g/crypt/m/lola
-downloadTitle: "Lola:"
 ---
 
 These are some ideas from the mod's creator. (If anyone else contributes ideas, they'll be listed here too!)

@@ -2,9 +2,6 @@
 layout: page
 title: RuleCheck - Lola
 permalink: /nd-mods/Lola/code/modules/RuleCheck
-github: https://github.com/Nixill/Synchrony-Lola/
-download: https://mod.io/g/crypt/m/lola
-downloadTitle: "Lola:"
 ---
 
 `local RuleCheck = require "Lola.mod.RuleCheck"`
