@@ -57,7 +57,7 @@ host: 0.0.0.0
 defaults:
   -
     scope:
-      path: "/nd-mods/LobbyJukebox/"
+      path: "nd-mods/LobbyJukebox"
     values:
       description: "Mod for CotND that plays the game's music in the lobby"
       image: "/img/page/mods/LobbyJukebox/LobbyJukeboxIcon.png"

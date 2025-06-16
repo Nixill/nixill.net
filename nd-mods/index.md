@@ -40,11 +40,10 @@ This one, I made because I wanted to have background music for mod-coding stream
 
 It has also been used to provide background music to competitive necrodancer events.
 
-⚠️ Due to issues with the mod.io website and cloudflare, I'm currently unable to upload new releases in-game. For the **1.0.3** release, use the Download from GitHub link instead. The current mod.io version is **1.0.1**. There is no version approved for consoles.
+The current version is **1.0.3**. There is no version approved for consoles.
 
 - [More info](LobbyJukebox/index.md)
-- [Download from GitHub](https://github.com/Nixill/Synchrony-LobbyJukebox/releases)
-- [Subscribe on mod.io](https://mod.io/g/crypt/m/lobbyjukebox) (outdated version!)
+- [Subscribe on mod.io](https://mod.io/g/crypt/m/lobbyjukebox)
 - [Source code and bug tracker](https://github.com/Nixill/Synchrony-LobbyJukebox)
 
 ## Lola
