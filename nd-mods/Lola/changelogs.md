@@ -7,6 +7,11 @@ permalink: /nd-mods/Lola/changelogs
 Changelogs are listed in order of most to least recent versions.
 
 # Version 1.4:
+## 1.4.2
+*(Version 1.4.2 was released June 25, 2025.)*
+
+- Small fix to item outline rendering.
+
 ## 1.4.1
 *(Version 1.4.1 was released June 13, 2025.)*
 

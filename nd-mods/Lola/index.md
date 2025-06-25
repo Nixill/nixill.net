@@ -6,7 +6,7 @@ permalink: /nd-mods/Lola/
 
 Lola is a character who is bound by a curse to not directly take actions that would break Low Percent (picking up items or using shrines). They must instead reveal the items, then leave them on the floor, and take the stairs to receive them.
 
-The pages on this site are updated for version **1.4.1** of Lola. As of this writing, **1.3.1** is the latest console-approved version. You can view the changelogs [here](changelogs.md).
+The pages on this site are updated for version **1.4.2** of Lola. As of this writing, **1.3.1** is the latest console-approved version. You can view the changelogs [here](changelogs.md).
 
 # How to play
 The following assumes you're playing with Default Rules. There are also [Classic Rules](options.md#classic-rules), or [Options](options.md) to customize your experience.
