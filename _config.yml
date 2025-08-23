@@ -26,6 +26,7 @@ url: "https://nixill.net" # the base hostname & protocol for your site, e.g. htt
 # twitter_username: jekyllrb
 github_username: Nixill
 timezone: America/Detroit
+source: "pages"
 
 # Build settings
 remote_theme: Nixill/midnight@f3f120cb745c246b32bdd74ff698e329be5186c7
