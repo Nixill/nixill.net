@@ -37,7 +37,7 @@ Timezone
 </script>
 
 Spoken Languages
-: English (I like to think I'm pretty good at it)
+: English (I like to think I'm pretty good at it!)
 : Deutsch (ein bisschen... Ich lerne Deutsch.)
 
 Birthday
@@ -52,9 +52,6 @@ Twitch
 
 Discord
 : For my streams: [The Shadow Den](https://l.nixill.net/dis)
-
-Twitter
-: [ShadowFoxNixill](https://twitter.nixill.net/)
 
 Bluesky
 : [nixill](https://l.nixill.net/bsky)
