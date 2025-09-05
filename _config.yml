@@ -28,7 +28,7 @@ github_username: Nixill
 timezone: America/Detroit
 
 # Build settings
-remote_theme: Nixill/midnight@f3f120cb745c246b32bdd74ff698e329be5186c7
+remote_theme: Nixill/midnight@a3eaccf25b12191a73dbeb8583fe1a9b9498916a
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

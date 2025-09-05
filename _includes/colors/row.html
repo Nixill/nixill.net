@@ -1,0 +1,10 @@
+    <tr>
+      <td class="color-cell">
+        <button class="color-button {% if include.light %}light{% else %}dark{% endif %}" style="background-color:{{ include.color }}" onclick="navigator.clipboard.writeText('{{ include.color }}')">
+          {{ include.color }}
+        </button>
+      </td>
+      <td class="color-caption">
+        {{ include.caption }}
+      </td>
+    </tr>
