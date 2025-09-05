@@ -5,7 +5,7 @@ permalink: /about/jet
 imgs: "/img/page/about/Jet/"
 ---
 
-{% include image.html url="Jet/jetref.png" alt="Refsheet for Jet" caption="This is Jet! Art by [FennFenne](https://bsky.app/profile/fennfenne.bsky.social)." %}
+{% include image.html url="jetref.png" alt="Refsheet for Jet" caption="This is Jet! Art by [FennFenne](https://bsky.app/profile/fennfenne.bsky.social)." %}
 
 {% include colors/header.html header="Jet's Colors" %}
   {% include colors/row.html color="#252525" caption="Fur" %}
