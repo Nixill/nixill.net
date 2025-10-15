@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Jet Schattenfuchs
-permalink: /about/jet
-imgs: "/img/page/about/Jet/"
+permalink: /jet
+imgs: "/img/page/Jet/"
 description: "Jet the Shadow Fox"
-image: "/img/page/about/Jet/jetref.png"
+image: "/img/page/Jet/jetref.png"
 ---
 
 {% include image.html url="jetref.png" alt="Refsheet for Jet" caption="This is Jet! Art by [FennFenne](https://bsky.app/profile/fennfenne.bsky.social)." %}

@@ -55,4 +55,4 @@ Bluesky
 : [@nixill.net](https://bsky.app/profile/nixill.net)
 
 # Furry
-I'm a furry! You might be looking for info on [Jet](jet.md)?
+I'm a furry! You might be looking for info on [Jet](../jet.md)?
