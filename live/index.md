@@ -7,18 +7,15 @@ permalink: /live
 You can find me on Twitch at [NixillShadowFox](https://l.nixill.net/ttv)!
 
 # Schedule
-Currently, there is no set schedule.
-
-<!-- This schedule is subject to change without notice.
-
 <span id="time-notice">💡 The days and times below are in US Eastern time. If you load this page with JavaScript enabled, it will attempt to detect your time zone.</span>
 
-All streams run **<span id="startTime">6:00 PM</span>** through **<span id="endTime">10:00 PM</span>**.
+I try to stream **<span id="startTime">5:30 PM</span>** through **<span id="endTime">9:30 PM</span>**.
 
-* **<span id="tuesday">Tuesday</span>**: Pokémon Ranger: Guardian Signs (Low% routing)
-* **<span id="thursday">Thursday</span>**: Wildcard Thursday (various games I wanna try)
-* **<span id="saturday">Saturday</span>**: Euro Truck Simulator 2 (Map exploration)
-* **The <span id="last">last</span> day of every month**: Mario Kart 8 Deluxe: Community Multiplayer
+* **<span id="tuesday">Tuesday</span>**: Pokémon Legends: Arceus
+* **<span id="saturday">Saturday</span>**: Crypt of the NecroDancer
+* Near **the <span id="last">last</span> day of every month**: Mario Kart 8 Deluxe: Community Multiplayer
+
+Additionally, various other streams may pop up at random as I'm involved in casting for the [UFO 50 Bingo League](https://ufo50.bingo/).
 
 <span id="change-notice"></span>
 
@@ -32,23 +29,20 @@ All streams run **<span id="startTime">6:00 PM</span>** through **<span id="endT
   //   year: 2023, month: 10, day: 15, hour: 0, minute: 0, second: 0
   // }, { zone: "America/Detroit" });
   // Set all the times and days correctly
-  var streamStart = now.set({ hour: 18, minute: 0, second: 0 });
-  var streamEnd = now.set({ hour: 22, minute: 0, second: 0 });
+  var streamStart = now.set({ hour: 17, minute: 30, second: 0 });
+  var streamEnd = now.set({ hour: 21, minute: 30, second: 0 });
   var tuesday = streamStart.set({ weekday: 2 });
-  var thursday = streamStart.set({ weekday: 4 });
   var saturday = streamStart.set({ weekday: 6 });
   // Set all timezones to the reader's
   var localZone = "local";
   var localStreamStart = streamStart.setZone(localZone);
   streamEnd = streamEnd.setZone(localZone);
   tuesday = tuesday.setZone(localZone);
-  thursday = thursday.setZone(localZone);
   saturday = saturday.setZone(localZone);
   // And now set the spans above
   document.getElementById("startTime").innerText = localStreamStart.toLocaleString(DateTime.TIME_SIMPLE);
   document.getElementById("endTime").innerText = streamEnd.toLocaleString(DateTime.TIME_SIMPLE);
   document.getElementById("tuesday").innerText = tuesday.weekdayLong;
-  document.getElementById("thursday").innerText = thursday.weekdayLong;
   document.getElementById("saturday").innerText = saturday.weekdayLong;
   document.getElementById("last").innerText = (tuesday.weekday == 2)?"last":"first";
   document.getElementById("time-notice").innerText = "✅ The days and times below are in your local time.";
@@ -75,7 +69,7 @@ All streams run **<span id="startTime">6:00 PM</span>** through **<span id="endT
       ", and then to " + changes[1].toLocaleString(DateTime.TIME_SIMPLE) +
       " on " + changes[1].toLocaleString({day: "numeric", month: "long"}) + ".";
   }
-</script> -->
+</script>
 
 # Chat rules
 Please adhere to the following rules when chatting:
