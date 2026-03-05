@@ -18,6 +18,12 @@ image: "/img/page/Jet/jetref.png"
   {% include colors/row.html color="#795f5f" caption="Inner ear fluff" light=true %}
   {% include colors/row.html color="#4f3a52" caption="Shadow magic" %}
   {% include colors/row.html color="#6e2176" caption="Shadow magic highlights" %}
+  {% include colors/row.html color="#90cef1" caption="Ice magic glow (not pictured)" %}
 {% include colors/footer.html %}
 
-(Info coming soon! Once I write it...)
+# Some art of Jet!
+{% include image.html url="20251205-twistbit.gif" alt="Jet Cobalt Core style" caption="Cobalt Core style portrait gifted from [WinnerBit](https://bsky.app/profile/twistbit.cc)" %}
+
+{% include image.html url="20260304-scaver.png" alt="Jet badge" caption="A badge commission from [Scaver](https://thegaypossum.art/)!" %}
+
+{% include image.html url="20260215-scaver.png" alt="Jet quick sketch" caption="A quick sketch commission, also from [Scaver](https://thegaypossum.art/)!" %}
