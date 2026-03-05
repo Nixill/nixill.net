@@ -18,7 +18,7 @@ image: "/img/page/Jet/jetref.png"
   {% include colors/row.html color="#795f5f" caption="Inner ear fluff" light=true %}
   {% include colors/row.html color="#4f3a52" caption="Shadow magic" %}
   {% include colors/row.html color="#6e2176" caption="Shadow magic highlights" %}
-  {% include colors/row.html color="#90cef1" caption="Ice magic glow (not pictured)" %}
+  {% include colors/row.html color="#90cef1" caption="Ice magic glow (not pictured)" light=true %}
 {% include colors/footer.html %}
 
 # Some art of Jet!
