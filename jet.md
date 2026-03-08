@@ -22,7 +22,11 @@ image: "/img/page/Jet/jetref.png"
 {% include colors/footer.html %}
 
 # Some art of Jet!
-{% include image.html url="20251205-twistbit.gif" alt="Jet Cobalt Core style" caption="Cobalt Core style portrait gifted from [WinnerBit](https://bsky.app/profile/twistbit.cc)" %}
+{% include image.html url="20251205-twistbit.gif" alt="Jet Cobalt Core style" caption="Cobalt Core style portrait gifted from [WinnerBit](https://bsky.app/profile/twistbit.cc) (my current Discord profile picture!)" %}
+
+{% include image.html url="20250823-fennfenne.png" alt="Jet sitting" caption="Gift art from [FennFenne](https://bsky.app/profile/fennfenne.bsky.social)" %}
+
+{% include image.html url="20251210-amarettosis.gif" alt="Jet pngtuber" caption="PNGtuber commission from [amarettosis](https://bsky.app/profile/amarettosis.bsky.social)" %}
 
 {% include image.html url="20260304-scaver.png" alt="Jet badge" caption="A badge commission from [Scaver](https://thegaypossum.art/)!" %}
 
