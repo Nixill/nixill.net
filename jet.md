@@ -31,3 +31,5 @@ image: "/img/page/Jet/jetref.png"
 {% include image.html url="20260304-scaver.png" alt="Jet badge" caption="A badge commission from [Scaver](https://thegaypossum.art/)!" %}
 
 {% include image.html url="20260215-scaver.jpg" alt="Jet quick sketch" caption="A quick sketch commission, also from [Scaver](https://thegaypossum.art/)!" %}
+
+{% include image.html url="20260320-diedar.webp" alt="Jet quick sketch 2" caption="A free doodle by [diedar](https://bsky.app/profile/diedraxd.bsky.social) - [original post here](https://bsky.app/profile/diedraxd.bsky.social/post/3mhix7q3xyc2f)" %}
